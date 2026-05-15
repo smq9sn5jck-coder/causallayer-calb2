@@ -1,0 +1,125 @@
+{
+  "engine_version": "0.9.1",
+  "corpus_version": "CALB-2 v0.6",
+  "total_cases": 202,
+  "v05_subset": {
+    "n": 137,
+    "correct": 131,
+    "accuracy_pct": 95.62,
+    "mean_l1": 9.68
+  },
+  "v06_new_subset": {
+    "n": 65,
+    "correct": 34,
+    "accuracy_pct": 52.31,
+    "mean_l1": 98.66
+  },
+  "all": {
+    "n": 202,
+    "correct": 165,
+    "accuracy_pct": 81.68,
+    "mean_l1": 38.31
+  },
+  "high_confidence": {
+    "n": 155,
+    "correct": 137,
+    "accuracy_pct": 88.39
+  },
+  "per_category": {
+    "hallucination_fabrication": {
+      "n": 79,
+      "correct": 78,
+      "accuracy_pct": 98.73
+    },
+    "bias_discrimination": {
+      "n": 23,
+      "correct": 13,
+      "accuracy_pct": 56.52
+    },
+    "privacy_consent": {
+      "n": 14,
+      "correct": 9,
+      "accuracy_pct": 64.29
+    },
+    "deceptive_marketing": {
+      "n": 10,
+      "correct": 9,
+      "accuracy_pct": 90.0
+    },
+    "adversarial_exploit": {
+      "n": 10,
+      "correct": 7,
+      "accuracy_pct": 70.0
+    },
+    "algorithmic_government_action": {
+      "n": 8,
+      "correct": 8,
+      "accuracy_pct": 100.0
+    },
+    "specification_failure": {
+      "n": 8,
+      "correct": 5,
+      "accuracy_pct": 62.5
+    },
+    "pipeline_integration": {
+      "n": 8,
+      "correct": 6,
+      "accuracy_pct": 75.0
+    },
+    "perception_failure": {
+      "n": 7,
+      "correct": 7,
+      "accuracy_pct": 100.0
+    },
+    "autonomy_handover": {
+      "n": 6,
+      "correct": 5,
+      "accuracy_pct": 83.33
+    },
+    "perception_sensor_failure": {
+      "n": 6,
+      "correct": 5,
+      "accuracy_pct": 83.33
+    },
+    "sensor_distribution_drift": {
+      "n": 6,
+      "correct": 2,
+      "accuracy_pct": 33.33
+    },
+    "intellectual_property": {
+      "n": 5,
+      "correct": 5,
+      "accuracy_pct": 100.0
+    },
+    "oversight_failure": {
+      "n": 3,
+      "correct": 1,
+      "accuracy_pct": 33.33
+    },
+    "defamation_by_ai": {
+      "n": 3,
+      "correct": 1,
+      "accuracy_pct": 33.33
+    },
+    "public_sector_equality_duty": {
+      "n": 3,
+      "correct": 2,
+      "accuracy_pct": 66.67
+    },
+    "specification_oversight": {
+      "n": 1,
+      "correct": 1,
+      "accuracy_pct": 100.0
+    },
+    "pipeline_data_quality": {
+      "n": 1,
+      "correct": 1,
+      "accuracy_pct": 100.0
+    },
+    "judicial_discretion": {
+      "n": 1,
+      "correct": 0,
+      "accuracy_pct": 0.0
+    }
+  }
+}
