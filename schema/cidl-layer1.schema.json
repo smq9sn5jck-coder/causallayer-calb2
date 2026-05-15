@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://causallayer.com/schema/cidl-layer1/v1.0.0",
+  "title": "CIDL Layer 1 — Typed Telemetry Contract",
+  "description": "Closed-enum schema for the routing-critical telemetry fields in the CALB-2 corpus. Derived from CALB-2 v0.9.0 (15 May 2026, 280 cases).",
+  "type": "object",
+  "required": ["id", "title", "incident_description", "jurisdiction", "domain", "ai_system_type", "failure_category", "telemetry_signals", "liability_allocation"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "pattern": "^L\\d+-\\d{3}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "incident_description": { "type": "string", "minLength": 1 },
+    "incident_date": { "type": ["string", "null"] },
+    "resolution_date": { "type": ["string", "null"] },
+    "jurisdiction": { "type": "string" },
+    "domain": { "type": "string" },
+    "ai_system_type": { "type": "string" },
+    "system_architecture": { "type": ["string", "null"] },
+    "failure_category": {
+      "type": "string",
+      "enum": [
+        "hallucination_fabrication",
+        "bias_discrimination",
+        "privacy_consent",
+        "deceptive_marketing",
+        "algorithmic_government_action",
+        "intellectual_property",
+        "specification_failure",
+        "specification_oversight",
+        "perception_sensor_failure",
+        "perception_failure",
+        "adversarial_exploit",
+        "autonomy_handover",
+        "oversight_failure",
+        "pipeline_integration",
+        "pipeline_data_quality",
+        "sensor_distribution_drift",
+        "defamation_by_ai",
+        "public_sector_equality_duty",
+        "judicial_discretion"
+      ]
+    },
+    "primary_source_type": {
+      "type": ["string", "null"],
+      "enum": [
+        null,
+        "court_opinion",
+        "court_ruling",
+        "regulator_order",
+        "settlement_document",
+        "settlement_filing",
+        "consent_decree",
+        "incident_report_official",
+        "inquiry_report"
+      ]
+    },
+    "primary_source_citation": { "type": ["string", "null"] },
+    "primary_source_url": { "type": ["string", "null"] },
+    "telemetry_signals": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "model_provider": { "type": ["string", "null"] },
+        "model_name": { "type": ["string", "null"] },
+        "deployer_org": { "type": ["string", "null"] },
+        "deployment_environment": { "type": ["string", "null"] },
+        "human_in_the_loop": {
+          "type": ["string", "null"],
+          "enum": [null, "true", "false", "partial", "unknown"]
+        },
+        "incident_was_predictable": {
+          "type": ["string", "null"],
+          "enum": [null, "true", "false", "unknown"]
+        },
+        "known_failure_modes_disclosed": {
+          "type": ["string", "null"],
+          "enum": [null, "true", "false", "unknown"]
+        },
+        "output_validation_in_place": {
+          "type": ["string", "null"],
+          "enum": [null, "false", "partial", "unknown"]
+        },
+        "sanctioned_entity_role": {
+          "type": ["string", "null"],
+          "enum": [null, "firm", "individual", "joint", "n/a"]
+        }
+      }
+    },
+    "liability_allocation": {
+      "type": "object",
+      "required": ["ai_provider", "deployer", "human_operator", "data_provider", "regulator", "external_actor", "affected_party"],
+      "additionalProperties": false,
+      "properties": {
+        "ai_provider":     { "type": "integer", "minimum": 0, "maximum": 100 },
+        "deployer":        { "type": "integer", "minimum": 0, "maximum": 100 },
+        "human_operator":  { "type": "integer", "minimum": 0, "maximum": 100 },
+        "data_provider":   { "type": "integer", "minimum": 0, "maximum": 100 },
+        "regulator":       { "type": "integer", "minimum": 0, "maximum": 100 },
+        "external_actor":  { "type": "integer", "minimum": 0, "maximum": 100 },
+        "affected_party":  { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    }
+  }
+}
