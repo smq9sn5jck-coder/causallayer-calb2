@@ -1,0 +1,141 @@
+{
+  "engine_version": "1.0.0",
+  "corpus_version": "calb2_v0.7",
+  "total_cases": 202,
+  "legal_top1_accuracy_pct": 89.6,
+  "legal_top1_high_confidence_pct": 93.4,
+  "high_confidence_n": 151,
+  "low_confidence_n": 51,
+  "mean_legal_l1_distance": 23.0,
+  "per_category": {
+    "adversarial_exploit": {
+      "n": 10,
+      "correct": 8,
+      "accuracy_pct": 80.0,
+      "mean_l1": 52.0
+    },
+    "algorithmic_government_action": {
+      "n": 8,
+      "correct": 8,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "autonomy_handover": {
+      "n": 6,
+      "correct": 5,
+      "accuracy_pct": 83.3,
+      "mean_l1": 66.7
+    },
+    "bias_discrimination": {
+      "n": 23,
+      "correct": 18,
+      "accuracy_pct": 78.3,
+      "mean_l1": 39.1
+    },
+    "deceptive_marketing": {
+      "n": 10,
+      "correct": 9,
+      "accuracy_pct": 90.0,
+      "mean_l1": 20.0
+    },
+    "defamation_by_ai": {
+      "n": 3,
+      "correct": 3,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "hallucination_fabrication": {
+      "n": 79,
+      "correct": 78,
+      "accuracy_pct": 98.7,
+      "mean_l1": 5.4
+    },
+    "intellectual_property": {
+      "n": 5,
+      "correct": 5,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "judicial_discretion": {
+      "n": 1,
+      "correct": 0,
+      "accuracy_pct": 0.0,
+      "mean_l1": 200.0
+    },
+    "oversight_failure": {
+      "n": 3,
+      "correct": 1,
+      "accuracy_pct": 33.3,
+      "mean_l1": 133.3
+    },
+    "perception_failure": {
+      "n": 7,
+      "correct": 7,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "perception_sensor_failure": {
+      "n": 6,
+      "correct": 5,
+      "accuracy_pct": 83.3,
+      "mean_l1": 33.5
+    },
+    "pipeline_data_quality": {
+      "n": 1,
+      "correct": 1,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "pipeline_integration": {
+      "n": 8,
+      "correct": 8,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "privacy_consent": {
+      "n": 14,
+      "correct": 11,
+      "accuracy_pct": 78.6,
+      "mean_l1": 42.9
+    },
+    "public_sector_equality_duty": {
+      "n": 3,
+      "correct": 3,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    },
+    "sensor_distribution_drift": {
+      "n": 6,
+      "correct": 3,
+      "accuracy_pct": 50.0,
+      "mean_l1": 83.3
+    },
+    "specification_failure": {
+      "n": 8,
+      "correct": 7,
+      "accuracy_pct": 87.5,
+      "mean_l1": 37.5
+    },
+    "specification_oversight": {
+      "n": 1,
+      "correct": 1,
+      "accuracy_pct": 100.0,
+      "mean_l1": 0.0
+    }
+  },
+  "remaining_misses_count": 21,
+  "remaining_misses_high_conf": 10,
+  "remaining_misses_by_category": {
+    "bias_discrimination": 5,
+    "sensor_distribution_drift": 3,
+    "privacy_consent": 3,
+    "adversarial_exploit": 2,
+    "oversight_failure": 2,
+    "specification_failure": 1,
+    "perception_sensor_failure": 1,
+    "autonomy_handover": 1,
+    "judicial_discretion": 1,
+    "hallucination_fabrication": 1,
+    "deceptive_marketing": 1
+  }
+}

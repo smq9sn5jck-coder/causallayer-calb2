@@ -1,0 +1,283 @@
+==============================================================================
+v1.0 MISSES ON NEW v0.6 CASES — total 18
+==============================================================================
+
+------------------------------------------------------------------------------
+CASE: L2-901  |  NY DFS Investigation on Apple Card and Goldman Sachs
+  failure_category    : bias_discrimination
+  domain              : financial_services
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Negligent Operations / In-House Algorithmic Failure
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Goldman Sachs Bank
+  deployer_org        : Apple
+  description         : In November 2019, consumers alleged on social media that the Apple Card credit assessment algorithm, underwritten by Goldman Sachs, discriminated against women by granting them lower credit limits than men with similar credit profiles. The New York State Department of Financial S...
+  source URL          : https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202103231
+
+------------------------------------------------------------------------------
+CASE: L2-907  |  Twitter Image Cropping Algorithm Bias
+  failure_category    : bias_discrimination
+  domain              : media
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Negligent Operations / In-House Algorithmic Failure
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : in-house
+  deployer_org        : Twitter
+  description         : In September 2020, Twitter users discovered that the platform's automated image cropping algorithm favored lighter-skinned faces over darker-skinned ones, and women over men. Twitter investigated and confirmed the bias, eventually abandoning the automated cropping system in May 2...
+  source URL          : https://arxiv.org/abs/2105.08667
+
+------------------------------------------------------------------------------
+CASE: L2-909  |  Crawford and Paglen v. ImageNet
+  failure_category    : bias_discrimination
+  domain              : other
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): data_provider — alloc {'ai_provider': 0, 'deployer': 0, 'human_operator': 0, 'data_provider': 100, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Vertically-Integrated Producer
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Princeton University and Stanford University
+  deployer_org        : Princeton University and Stanford University
+  description         : Researchers Kate Crawford and Trevor Paglen launched ImageNet Roulette, an art project that allowed users to upload selfies and see how the ImageNet dataset would classify them. The project exposed deep racial, gender, and other biases in the dataset, leading to public outcry. In...
+  source URL          : https://www.image-net.org/update-sep-17-2019.php
+
+------------------------------------------------------------------------------
+CASE: L2-910  |  K.W. v. Armstrong
+  failure_category    : bias_discrimination
+  domain              : healthcare
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : in-house
+  deployer_org        : Idaho Department of Health and Welfare
+  description         : The Idaho Department of Health and Welfare used a flawed algorithm to determine Medicaid assistance limits for adults with developmental and intellectual disabilities. The algorithm relied on corrupt historical data and contained fundamental statistical flaws, resulting in arbitr...
+  source URL          : https://www.acluidaho.org/app/uploads/2016/03/Kw_v_armstrong_decision_03292016.pdf
+
+------------------------------------------------------------------------------
+CASE: L6-903  |  PIPC v. Facebook (2021)
+  failure_category    : privacy_consent
+  domain              : media
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Regulatory Action / Statutory Liability (Deployer)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : in-house
+  deployer_org        : Facebook
+  description         : Between April 2018 and September 2019, Facebook generated and collected facial recognition templates of its users in South Korea without their consent. The templates were used to identify and display the names of individuals in uploaded photographs. The South Korean Personal Info...
+  source URL          : https://www.leeko.com/newsl/dpc/202109_e/dpc2109_e.pdf
+
+------------------------------------------------------------------------------
+CASE: L6-905  |  ICO v. TikTok
+  failure_category    : privacy_consent
+  domain              : media
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Regulatory Action / Statutory Liability (Deployer)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : in-house
+  deployer_org        : TikTok Inc and TikTok Information Technologies UK Limited
+  description         : Between May 2018 and July 2020, TikTok processed the personal data of UK children under the age of 13 without parental consent. The platform failed to make reasonable efforts to ensure consent was given or to prevent underage children from accessing its services, resulting in a £...
+  source URL          : https://ico.org.uk/media2/migrated/4025182/tiktok-mpn.pdf
+
+------------------------------------------------------------------------------
+CASE: L6-907  |  AEPD v. Mercadona
+  failure_category    : privacy_consent
+  domain              : consumer_retail
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Regulatory Action / Statutory Liability (Deployer)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : AnyVision
+  deployer_org        : Mercadona
+  description         : Spanish supermarket chain Mercadona deployed a facial recognition system in 48 stores to detect individuals with restraining orders or criminal convictions related to the stores. The system captured biometric data of all customers and employees without a valid legal basis under G...
+  source URL          : https://www.aepd.es/es/documento/ps-00120-2021.pdf
+
+------------------------------------------------------------------------------
+CASE: L6-908  |  Swedish DPA v. Skellefteå Municipality Secondary Education Board
+  failure_category    : privacy_consent
+  domain              : education
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Regulatory Action / Statutory Liability (Deployer)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Tieto
+  deployer_org        : Skellefteå Municipality Secondary Education Board
+  description         : The Secondary Education Board in Skellefteå municipality used facial recognition technology to monitor the attendance of 22 secondary school students over a three-week trial period. The Swedish Data Protection Authority (IMY) found that the processing of biometric data was dispro...
+  source URL          : https://www.imy.se/globalassets/dokument/beslut/facial-recognition-used-to-monitor-the-attendance-of-students.pdf
+
+------------------------------------------------------------------------------
+CASE: L1-903  |  NYC Department of Education Ban on ChatGPT
+  failure_category    : specification_failure
+  domain              : education
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : OpenAI
+  deployer_org        : New York City Department of Education
+  description         : The New York City Department of Education blocked access to ChatGPT on school devices and networks due to concerns about negative impacts on student learning, safety, and accuracy of content. The ban was later reversed in May 2023 to encourage exploration of the technology.
+  source URL          : https://www.chalkbeat.org/newyork/2023/1/3/23537987/nyc-schools-ban-chatgpt-writing-artificial-intelligence/
+
+------------------------------------------------------------------------------
+CASE: L3-901  |  Kevin Liu v. Microsoft Corporation
+  failure_category    : adversarial_exploit
+  domain              : other
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): human_operator — alloc {'ai_provider': 0, 'deployer': 0, 'human_operator': 100, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : OpenAI
+  deployer_org        : Microsoft
+  description         : A Stanford University student named Kevin Liu used a prompt injection attack to discover Bing Chat's initial prompt, which is a list of statements that governs its behavior. By asking Bing Chat to 'Ignore previous instructions' and write out what is at the 'beginning of the docum...
+  source URL          : https://www.theverge.com/23599441/microsoft-bing-ai-sydney-secret-rules
+
+------------------------------------------------------------------------------
+CASE: L3-903  |  Samsung bans ChatGPT after internal data leak
+  failure_category    : adversarial_exploit
+  domain              : other
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): human_operator — alloc {'ai_provider': 0, 'deployer': 0, 'human_operator': 100, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : OpenAI
+  deployer_org        : Samsung Electronics
+  description         : In April 2023, Samsung employees in the semiconductor division accidentally leaked confidential company data, including proprietary source code, by pasting it into OpenAI's ChatGPT to check for errors and optimize code. Following the discovery of the leak, Samsung temporarily ban...
+  source URL          : https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak
+
+------------------------------------------------------------------------------
+CASE: L9-901  |  NTSB Investigation on Tesla Autopilot Joshua Brown Fatal Crash
+  failure_category    : perception_sensor_failure
+  domain              : automotive
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): human_operator — alloc {'ai_provider': 33, 'deployer': 0, 'human_operator': 34, 'data_provider': 0, 'regulator': 0, 'external_actor': 33, 'affected_party': 0}
+  L1 distance         : 101
+  applied doctrine    : Regulatory Action / Statutory Liability (Provider)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Tesla Inc.
+  deployer_org        : in-house
+  description         : A Tesla Model S operating on Autopilot collided with a tractor-semitrailer truck crossing its path on a highway near Williston, Florida. The Autopilot system failed to detect the white side of the turning truck against a brightly lit sky, resulting in the car passing under the tr...
+  source URL          : https://www.ntsb.gov/investigations/accidentreports/reports/har1702.pdf
+
+------------------------------------------------------------------------------
+CASE: L11-901  |  Wong et al. Validation of Epic Sepsis Model
+  failure_category    : sensor_distribution_drift
+  domain              : healthcare
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Epic Systems Corporation
+  deployer_org        : Michigan Medicine
+  description         : An external validation study by Wong et al. found that the widely implemented proprietary Epic Sepsis Model poorly predicted sepsis in hospitalized patients. The model demonstrated low sensitivity and generated a high burden of false alerts, raising concerns about its real-world ...
+  source URL          : https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307
+
+------------------------------------------------------------------------------
+CASE: L11-903  |  Roberts et al. on Spurious Correlations in COVID-19 Chest X-ray Models
+  failure_category    : sensor_distribution_drift
+  domain              : healthcare
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): data_provider — alloc {'ai_provider': 0, 'deployer': 0, 'human_operator': 0, 'data_provider': 100, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Vertically-Integrated Producer
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Various AI researchers and developers
+  deployer_org        : Various AI researchers and developers
+  description         : A systematic review by Roberts et al. (2021) found that hundreds of machine learning models developed to detect COVID-19 from chest X-rays and CT scans were clinically useless due to methodological flaws and underlying biases. Specifically, models learned spurious correlations, s...
+  source URL          : https://www.nature.com/articles/s42256-021-00307-0
+
+------------------------------------------------------------------------------
+CASE: L9-906  |  BEA Investigation on Air France Flight 447
+  failure_category    : autonomy_handover
+  domain              : aviation
+  predicted (legal)   : deployer — alloc {'ai_provider': 0, 'deployer': 100, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Regulatory Action / Statutory Liability (Deployer)
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Airbus
+  deployer_org        : Air France
+  description         : Air France Flight 447 crashed into the Atlantic Ocean after ice crystals blocked the pitot tubes, causing the autopilot to disconnect. The flight crew failed to appropriately handle the sudden handover of control, leading to an aerodynamic stall from which they did not recover.
+  source URL          : https://bea.aero/fileadmin/uploads/tx_elyextendttnews/presentation.rapport.final.05juillet2012.en_04.pdf
+
+------------------------------------------------------------------------------
+CASE: L8-907  |  Reid v. Jefferson Parish Sheriff's Office
+  failure_category    : oversight_failure
+  domain              : criminal_justice
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Clearview AI
+  deployer_org        : Jefferson Parish Sheriff's Office
+  description         : Randal Quran Reid, a 29-year-old Black man, was wrongfully arrested in Georgia and held in jail for nearly a week based on warrants from Louisiana. The warrants were issued after police in Jefferson Parish and Baton Rouge relied on a false facial recognition match using Clearview...
+  source URL          : https://www.nytimes.com/2023/03/31/technology/facial-recognition-false-arrests.html
+
+------------------------------------------------------------------------------
+CASE: L8-908  |  Parks v. McCormac
+  failure_category    : oversight_failure
+  domain              : criminal_justice
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Clearview AI
+  deployer_org        : Woodbridge Police Department
+  description         : Nijeer Parks was wrongfully arrested and imprisoned for 10 days in 2019 after Woodbridge police relied exclusively on a false match from a facial recognition system. The system misidentified him as a shoplifting suspect based on a blurry photo from a fake driver's license. The ca...
+  source URL          : https://www.law.com/njlawjournal/2024/09/10/bewitched-by-the-technology-300k-to-settle-faulty-facial-recognition/
+
+------------------------------------------------------------------------------
+CASE: L2-912  |  State v. Pickett COMPAS challenge
+  failure_category    : judicial_discretion
+  domain              : criminal_justice
+  predicted (legal)   : ai_provider — alloc {'ai_provider': 100, 'deployer': 0, 'data_provider': 0, 'human_operator': 0}
+  ground truth (legal): deployer — alloc {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0}
+  L1 distance         : 200
+  applied doctrine    : Strict Product Liability / Design Defect
+  primary_business_model: None
+  primary_source_type : None
+  model_provider      : Northpointe
+  deployer_org        : Florida State Courts
+  description         : In 2018, Ira Lee Pickett challenged the use of the COMPAS risk assessment algorithm in his sentencing in Florida. The Third District Court of Appeal of Florida affirmed the lower court's decision.
+  source URL          : https://caselaw.findlaw.com/court/fl-district-court-of-appeal/1933901.html
+
+==============================================================================
+v1.0 MISSES ON OLD v0.5 CASES — total 6
+==============================================================================
+  L2-016: ICO v Clearview AI Inc  pred=deployer GT=ai_provider doc=Assumption of Risk / Contributory Negligence
+  L5-002: FTC v. DoNotPay, Inc.  pred=human_operator GT=deployer doc=FRCP Rule 11 / Professional Non-Delegable Duty
+  L7-001: Walters v. OpenAI, L.L.C.  pred=deployer GT=human_operator doc=Negligent Deployment / Constructive Knowledge
+  L8-001: R (Bridges) v. Chief Constable of South Wales Police  pred=ai_provider GT=deployer doc=Comparative Negligence / Shared Fault
+  L2-116: State v. Loomis  pred=ai_provider GT=human_operator doc=Comparative Negligence / Shared Fault
+  L5-104: ICO Undertaking regarding Royal Free London NHS Foundation Trust and DeepMind  pred=ai_provider GT=deployer doc=Regulatory Action / Joint Respondents Co-Liability
