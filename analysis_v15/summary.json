@@ -1,0 +1,23 @@
+{
+  "engine_version": "1.5.0",
+  "total": {
+    "correct": 254,
+    "total": 280,
+    "accuracy_pct": 90.71
+  },
+  "baseline_v08": {
+    "correct": 225,
+    "total": 250,
+    "accuracy_pct": 90.0
+  },
+  "fresh_v09": {
+    "correct": 29,
+    "total": 30,
+    "accuracy_pct": 96.67
+  },
+  "high_confidence": {
+    "correct": 180,
+    "total": 193,
+    "accuracy_pct": 93.26
+  }
+}
