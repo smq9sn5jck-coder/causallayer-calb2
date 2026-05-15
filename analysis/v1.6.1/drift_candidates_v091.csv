@@ -1,0 +1,31 @@
+case_id,title,rule,severity,sanctioned_entity_role,model_provider,failure_category,liability_allocation,alloc_total,detail
+L1-901,Microsoft Tay Chatbot Rapid Corruption,R6b_null_provider_fillin_candidate,LOW,n/a,(null),specification_failure,ai_provider=50; deployer=50,100,model_provider=null but ai_provider=50 — fill in vendor name
+L11-902,Google Flu Trends Overestimation of 2012-2013 Flu Season,R6b_null_provider_fillin_candidate,LOW,n/a,(null),sensor_distribution_drift,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L2-901,NY DFS Investigation on Apple Card and Goldman Sachs,R6b_null_provider_fillin_candidate,LOW,n/a,(null),bias_discrimination,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L2-903,New York State Department of Financial Services Action on Un,R6b_null_provider_fillin_candidate,LOW,firm,(null),bias_discrimination,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L2-904,Stanford Study on GPT Detectors Bias Against Non-Native Engl,R6b_null_provider_fillin_candidate,LOW,n/a,(null),bias_discrimination,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L2-905,Jacky Alciné v. Google (Google Photos Gorilla Mislabeling),R6b_null_provider_fillin_candidate,LOW,n/a,(null),bias_discrimination,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L2-908,Bloomberg Investigation on Stability AI,R6b_null_provider_fillin_candidate,LOW,n/a,(null),bias_discrimination,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L3-902,Greshake et al. Demonstration of Indirect Prompt Injection o,R6b_null_provider_fillin_candidate,LOW,n/a,(null),adversarial_exploit,ai_provider=50; deployer=50,100,model_provider=null but ai_provider=50 — fill in vendor name
+L3-904,US v. ANOM Distributors (Operation Trojan Shield),R6b_null_provider_fillin_candidate,LOW,firm,(null),adversarial_exploit,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L3-905,Cisco and UPenn Researchers v. DeepSeek,R6b_null_provider_fillin_candidate,LOW,n/a,(null),adversarial_exploit,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L3-906,Salt Labs Security Research on OpenAI ChatGPT Plugin Vulnera,R6b_null_provider_fillin_candidate,LOW,n/a,(null),adversarial_exploit,ai_provider=80; external_actor=20,100,model_provider=null but ai_provider=80 — fill in vendor name
+L5-901,FTC v. Automators LLC,R6b_null_provider_fillin_candidate,LOW,firm,(null),deceptive_marketing,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L5-902,FTC Action on Rytr LLC,R6b_null_provider_fillin_candidate,LOW,firm,(null),deceptive_marketing,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L5-904,FTC v. Empire Holdings Group LLC,R6b_null_provider_fillin_candidate,LOW,firm,(null),deceptive_marketing,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L5-905,FTC v. FBA Stores,R6b_null_provider_fillin_candidate,LOW,firm,(null),deceptive_marketing,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L6-902,Italian Garante ban on ChatGPT,R6b_null_provider_fillin_candidate,LOW,firm,(null),privacy_consent,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L6-904,OAIC Determination on Clearview AI,R6b_null_provider_fillin_candidate,LOW,firm,(null),privacy_consent,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-901,Hood v OpenAI,R6b_null_provider_fillin_candidate,LOW,firm,(null),defamation_by_ai,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-902,Battle v. Microsoft Corporation,R6b_null_provider_fillin_candidate,LOW,n/a,(null),defamation_by_ai,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-903,Jonathan Turley v. OpenAI,R6b_null_provider_fillin_candidate,LOW,n/a,(null),defamation_by_ai,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-904,Andersen v. Stability AI Ltd.,R6b_null_provider_fillin_candidate,LOW,firm,(null),intellectual_property,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-905,Getty Images v. Stability AI,R6b_null_provider_fillin_candidate,LOW,firm,(null),intellectual_property,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-906,Authors Guild v. OpenAI,R6b_null_provider_fillin_candidate,LOW,firm,(null),intellectual_property,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L7-907,"Doe v. GitHub, Inc.",R6b_null_provider_fillin_candidate,LOW,n/a,(null),intellectual_property,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L8-902,Cahoo v. SAS Analytics Inc.,R6b_null_provider_fillin_candidate,LOW,joint,(null),algorithmic_government_action,ai_provider=30; deployer=70,100,model_provider=null but ai_provider=30 — fill in vendor name
+L9-901,NTSB Investigation on Tesla Autopilot Joshua Brown Fatal Cra,R6b_null_provider_fillin_candidate,LOW,n/a,(null),perception_sensor_failure,ai_provider=33; human_operator=34; external_actor=33,100,model_provider=null but ai_provider=33 — fill in vendor name
+L9-902,NHTSA Investigation on Tesla FSD Traffic Violations,R6b_null_provider_fillin_candidate,LOW,firm,(null),perception_sensor_failure,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L9-903,KNKT Investigation on Boeing 737 MAX MCAS Lion Air JT610,R6b_null_provider_fillin_candidate,LOW,firm,(null),perception_sensor_failure,ai_provider=100,100,model_provider=null but ai_provider=100 — fill in vendor name
+L9-904,NTSB Investigation on Tesla Autopilot Mountain View Crash,R6b_null_provider_fillin_candidate,LOW,firm,(null),autonomy_handover,ai_provider=40; human_operator=40; external_actor=20,100,model_provider=null but ai_provider=40 — fill in vendor name
+L9-905,NTSB Investigation on Tesla Autopilot Delray Beach Fatal Cra,R6b_null_provider_fillin_candidate,LOW,n/a,(null),autonomy_handover,ai_provider=33; human_operator=33; regulator=1; external_actor=33,100,model_provider=null but ai_provider=33 — fill in vendor name
