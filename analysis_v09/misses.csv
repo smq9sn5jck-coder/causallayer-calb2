@@ -1,0 +1,34 @@
+case_id,title,domain,failure_category,ground_truth_confidence,is_fresh,doctrine,predicted_primary,gt_primary,L1
+L1-304,"Concord Music Group, Inc. v. Anthropic PBC",media,intellectual_property,medium,Y,Training-Data IP Infringement / Copyright Liability,ai_provider,affected_party,200
+L11-301,"In the Matter of Delphia (USA) Inc., Investment Advisers Act Release No. 6573",financial_services,deceptive_marketing,high,Y,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L11-302,"In the Matter of Global Predictions, Inc., Release No. 6574",financial_services,deceptive_marketing,high,Y,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L11-901,Wong et al. Validation of Epic Sepsis Model,healthcare,sensor_distribution_drift,low,N,Strict Product Liability / Design Defect,ai_provider,deployer,200
+L11-903,Roberts et al. on Spurious Correlations in COVID-19 Chest X-ray Models,healthcare,sensor_distribution_drift,low,N,Strict Product Liability / Vertically-Integrated Producer,deployer,data_provider,200
+L2-005,State v. Loomis,criminal_justice,algorithmic_government_action,medium,N,Judicial Discretion / Decision-Maker Non-Delegability,human_operator,deployer,200
+L2-116,State v. Loomis,criminal_justice,bias_discrimination,high,N,Government Administrative Liability / Non-Delegable Duty,deployer,human_operator,200
+L2-203,AEPD Spain Ban on Worldcoin Biometric Iris Scanning,financial_services,privacy_consent,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L2-206,South Korean PIPC Fine to Meta for Unlawful Targeted-Advertising AI Inferences,media,privacy_consent,high,N,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L2-304,"In the Matter of Cleo AI, Inc., FTC Matter No. 2423004",financial_services,deceptive_marketing,high,Y,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L2-901,NY DFS Investigation on Apple Card and Goldman Sachs,financial_services,bias_discrimination,low,N,Negligent Operations / In-House Algorithmic Failure,deployer,ai_provider,200
+L2-903,New York State Department of Financial Services Action on UnitedHealth Group,healthcare,bias_discrimination,medium,N,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L2-909,Crawford and Paglen v. ImageNet,other,bias_discrimination,low,N,Strict Product Liability / Vertically-Integrated Producer,deployer,data_provider,200
+L2-912,State v. Pickett COMPAS challenge,criminal_justice,judicial_discretion,low,N,Judicial Discretion / Decision-Maker Non-Delegability,human_operator,deployer,200
+L3-901,Kevin Liu v. Microsoft Corporation,other,adversarial_exploit,low,N,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L3-903,Samsung bans ChatGPT after internal data leak,other,adversarial_exploit,low,N,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L4-302,NHTSA Announces Consent Order with Cruise After Company Failed to Fully Report Crash Involving Pedestrian,automotive,perception_sensor_failure,high,Y,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L4-305,"Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Waymo LLC (USDOT #3000336) and Aurora Operations, Inc. (USDOT #3441156)",automotive,specification_failure,high,Y,Strict Product Liability / Vertically-Integrated Producer (AI-as-Product),ai_provider,regulator,100
+L4-901,AWS S3 us-east-1 Outage Cascading Failures,other,pipeline_integration,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L5-201,Massachusetts AG Settlement with Joshua Hyman / Sumiyo Inc. over AI Lawyer Marketing,legal_services,deceptive_marketing,low,N,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L5-204,FTC v. CRI Genetics (2023),consumer_retail,deceptive_marketing,high,N,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L5-301,"SeniorLife Technologies, Inc. - 707021 - 08/21/2025",healthcare,specification_failure,high,Y,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L5-903,FTC Action on Ascend Ecom,consumer_retail,deceptive_marketing,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-202,Italian AGCM fine against TikTok for French scar challenge,media,oversight_failure,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-302,Commission preliminarily finds TikTok's addictive design in breach of the Digital Services Act,media,specification_failure,medium,Y,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-304,Investigation into Amazon's Marketplace,consumer_retail,deceptive_marketing,medium,Y,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,100
+L6-901,Hamburg DPA v. H&M Hennes & Mauritz Online Shop A.B. & Co KG,hr_employment,privacy_consent,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-906,CNIL v. Doctissimo,media,privacy_consent,high,N,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L7-001,"Walters v. OpenAI, L.L.C.",media,hallucination_fabrication,high,N,Negligent Deployment / Constructive Knowledge,deployer,human_operator,200
+L7-201,Mata v. Avianca Inc.,legal_services,hallucination_fabrication,high,N,FRCP Rule 11 / Professional Non-Delegable Duty (joint sanction),deployer,human_operator,100
+L7-902,Battle v. Microsoft Corporation,media,defamation_by_ai,low,N,Generative-AI Defamation / No Publisher Liability,external_actor,ai_provider,250
+L9-302,"Electric Vehicle Run-Off-Road Crash and Postcrash Fire, Spring, Texas, April 17, 2021",automotive,perception_sensor_failure,high,Y,Regulatory Action / Statutory Liability (Provider),ai_provider,human_operator,200
+L9-901,NTSB Investigation on Tesla Autopilot Joshua Brown Fatal Crash,automotive,perception_sensor_failure,low,N,Regulatory Action / Statutory Liability (Provider),ai_provider,human_operator,134
