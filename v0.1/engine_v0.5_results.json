@@ -1,0 +1,2783 @@
+[
+  {
+    "case_id": "L1-001",
+    "title": "Jessica Fuller v. Hyde School",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "92ca0e2a59b620862fbdb98ee7147e2d1641f23af9d388480bbc4c6e66c673d0",
+    "input_hash": "8737e9055268af5e216ead9f163701e1e092fda915d87b10b6e3ef5722cf06c8",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2091/USCOURTS-med-2_25-cv-00354-0.pdf"
+  },
+  {
+    "case_id": "L1-002",
+    "title": "Smith v. Verra Mobility Corp.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "7034e56dc9e7801f44141679414fc3c446ebb7a2e651af4d13cce5b7070aabde",
+    "input_hash": "6702abe3fa4b601f59c0a104e610fcf28f39d0b2034038c5757991fa7581dfd0",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2107/Smith_v._Verra_USA_1_May_2025.pdf"
+  },
+  {
+    "case_id": "L1-003",
+    "title": "Sai Malena Jimenez-Fogarty v. Thomas Fogarty et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "25dc4444d2b24fad2b4ed90d9ff35e7cfedb231e16835baba4b79be34d3e51f1",
+    "input_hash": "bf8019237675e1e69a6bedb1a2fa6268386a29ce038dc2de1b271c927f1a84c5",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-004",
+    "title": "Chaney v. Transdev Services Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "980200464994493387e0d8a10b9848384ed3a0987e83f68e5c7a184db11d39ad",
+    "input_hash": "3d91c455f5605d9cb5c5d5964f26d5a60c1ac67f48c5febc20aa13a3a17b8df0",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2041/Chaney_v._Transdev_Services_USA_28_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-005",
+    "title": "Anthony C. Hill v. Workday, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "l1_distance": 120,
+    "decision_id": "0ee27dfc36cbd2be5391033ac0d992fb7cb7534e52cf74b16c95b6ec6f1b96a1",
+    "input_hash": "53b67891097f183d40037dcd5f9b3acedc0f436b21d6898d0aa93ad291630ed7",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2039/Hill_v._Workday_USA_28_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-006",
+    "title": "United States v. Farris",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "f5e24a5735f06a8c705b9c3efe6db16d8fa2cb4cfe1850deb9f6c6e5272f96fb",
+    "input_hash": "d0aed2410b98ce542b53af23ef0fe2b710a1bd5351f22aaff808108844a7b458",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1903/USA_v._Farris_USA_3_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-007",
+    "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "bdcd2cf779745b0dc5bd95328469f8a23c24b944e3bffd56a3e233f9a1b78e43",
+    "input_hash": "ef24896945f1f79c93144c8c007567b3ce41f62c350deaaba81558402f37c9bc",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-008",
+    "title": "Rushing v. Turner",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "9e9ddcd4c8839489d42e11d91d608f258849fdb786ed2a11dcd1f05253ffd500",
+    "input_hash": "fd62531043b093860fc92714360c2217e2134396ec10d9c181b365841831f9ce",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2042/Rushing_v._Turner_USA_27_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-009",
+    "title": "State National Insurance Company, Inc. v. Damon Treadwell, et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "3690a28e84136bb5d7668df727f8123c618e83bfa8490d7ae7d2f453f216fe53",
+    "input_hash": "199ffdd4891806934b093dc9a392752027178dcfe54398097aacfb6269c649ab",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1916/State_National_v._Dimon_Treadwell_USA_27_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-010",
+    "title": "State v. Coleman",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 42,
+      "deployer": 33,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 150,
+    "decision_id": "6119f982fbc5443f4842ca22d0c7e552ffd69cc1cf0cb67021b25537fe0f8fd9",
+    "input_hash": "320f17fa34f4d0db75264012add124242a486c3691b1eaca2faccaf48c0c89b5",
+    "output_hash": "6ea4952df6b9ca2dcaf0201d58374fe54164161115202859ff48b65feb98dcc0",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1774/2026-Ohio-965.pdf"
+  },
+  {
+    "case_id": "L1-011",
+    "title": "Daniel Gentry v. Calvin Thompson et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 80
+    },
+    "l1_distance": 160,
+    "decision_id": "4a7bec10ba9dc2bc4686f20a6eea27241da4c55c7eaa454461f6ccfc9e71ffec",
+    "input_hash": "41216ad93a50196a760d050b7ee49c29162d717fdd313e6752f6a9a91d85e22f",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-012",
+    "title": "Riddle Aggregates v. IRS",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5d59da073a729278e9ed55b97d16e6a1cc38820e980a17c358c9649aef416796",
+    "input_hash": "a9d7589093455d55a4f364045c6d9a402687359a034be3f4cd7b33d00f01762b",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1972/Riddle_Aggregates.pdf"
+  },
+  {
+    "case_id": "L1-013",
+    "title": "Cartagena v. Dixon",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "41ac1ff492f9997b4a952987c808f32ade84356be1b9bf5ad073524c7f34efec",
+    "input_hash": "5bd42a3bc588aabb4deb156e763c3b703060b78ad90d9c00728bf0f366781a01",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1665/Cartagena_v._Dixon_USA_10_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-014",
+    "title": "Kattom v. Bondi",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "f8f2ff6b36b893ffec141a700f0f7fcbf573be9cbe4926f5baaabc1d1b355209",
+    "input_hash": "d9c826baf3a0038e16a85f1eb195c81ce5694db153f6b1c0ef6eaef03d53bb0c",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-015",
+    "title": "Matter of Zareh",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "7ed71258138f8b2474d73fc81f49b35f3dd4da65f94b15fa8f9bce6ab427af10",
+    "input_hash": "05499d9d766dcf730d0a3b36bfcd0c8f30fc676152c6f7c556c56aef8efa73ea",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1816/Matter_of_Zareh.pdf"
+  },
+  {
+    "case_id": "L1-016",
+    "title": "Amarsingh v. Frontier Airlines",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5ead4010e39a33be6f904f099885c7e1bfde313ea2e72c5f4ac08e5688f025d7",
+    "input_hash": "9f8aa74e3d6b6d181d623929253f8e839730087342d5fa0d2ac0abe2f7d06f91",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf"
+  },
+  {
+    "case_id": "L1-017",
+    "title": "Arkansas DHS v. April Ward",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "6a73a7a83f62b2609f05fecbd81e91c979d66f1ede7ad281e5d1a2cc2e5900a1",
+    "input_hash": "10430d3c485a7d59da922b6cacca128f3a54f58af69e86ab9c74539facc7e37a",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1458/Arkansas_DHS_v._April_Ward_USA_5_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-018",
+    "title": "Flycatcher v. Affable Avenue",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "af053a381b5baf335b1aa39a46d9e7007199f050ee88800febf1c98059b07966",
+    "input_hash": "b8ae13e21a42d8b15a81e51e80467a61de8aea34a6f36cd5ba2db26052d58449",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1460/Flycatcher_v._Affable_Avenue_USA_5_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-019",
+    "title": "Lexos Media IP, LLC v. Overstock.com, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "3e8beb12e77236cc2106c849ad1792df840deeaa609a5eda0bb69b52b5f83d43",
+    "input_hash": "60073121c7f1e061de213b2a236885c838efc719dd48ca71395241dbdc00bc1d",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-020",
+    "title": "Lifetime Well LLC v. IBSpot.com Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "7cd1cef69af474d8c1cbe1cfa8d326b4c08cd22c4fbb2dc6e5983b0aa86e2b36",
+    "input_hash": "0b7e29fe3e728492608d8782ed5dad346276c01a28236def7813f5807c80ad0c",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1398/Lifetime_v._IBSpot_USA_26_January_2026.pdf"
+  },
+  {
+    "case_id": "L1-021",
+    "title": "Gharavi v. Google LLC",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "b58b683eec7851487d316bcac239988dd10a378decca2cded1b7ece4bf4a6a9a",
+    "input_hash": "22558ba3c1a39f59754d894b4facabb5d272d8ee100092f56ee342c7000ad7b3",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1394/Gharavi_v_Google_LLC.pdf"
+  },
+  {
+    "case_id": "L1-022",
+    "title": "Billups v. Louisville Municipal School District",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 80
+    },
+    "l1_distance": 160,
+    "decision_id": "35b268bce6296880dd5a29d18de94dbe88a1e1781686bc09552a2c7336cda1ac",
+    "input_hash": "0f1381b13356d24b1f109b95ab36bca44e16ecd4de8276cbe15c1b60d0f8abd8",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1223/Billups_v._Louisville_USA_19_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-023",
+    "title": "Dodge v. FirstService Residential Arizona LLC",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "a88bca700ca3d6002523dfb94bc5b671ac6225ccbd065c21fcee2908f2c36499",
+    "input_hash": "e30bd9875294c2d253bdc1f4d251ac28b1bdd7a908053d486e401a50357e5b36",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1195/Dodge_v._FirstService_USA_17_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-024",
+    "title": "Jordan v. Chicago Housing Authority",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "e9f82dc29f9ff7d34478f12cf20cdb5b215ca4bf374c1a17185210d91315aa3e",
+    "input_hash": "fd5b6e3dc8d3faf444f0e96c853ce4334f30e465b74ae419eda624668e7d3ab0",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1159/Jordan_v._CHA_USA_5_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-025",
+    "title": "Hill v. Oklahoma County Criminal Justice Authority",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "3c6657e0151fa5165b1b021bb23ceff23323b2f81f758d3899e235f1a5f3e488",
+    "input_hash": "807316a89560b8cb308656f2f5605c3709f512198ab888975de5d4a9a97fa26f",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1131/Hill_v._Oklahoma_County_Criminal_Justice_USA_4_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-026",
+    "title": "Re Walker",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "438bd28f0a8f43e56a1c92ebe5eb49d3766a950676710a5a5817b9af9f9365db",
+    "input_hash": "cac47507b95d5f82f87ca9d3fc26b23f1ae7d714ce1f79129a94fd671a178c81",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1074/Re_Walker_Australia_24_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-027",
+    "title": "Buchanan v. Vuori, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "55e2680d704b5b718046d855cc86c9a14e338540048d307ad73e8e503eb829cf",
+    "input_hash": "6661564005a5365299a157836ea87d4a2810cf9960a74ad9c2198610ad9c59f4",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1075/Buchanan_v._Vuori_USA_20_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-028",
+    "title": "Yuehong v. The Minister of Citizenship & Immigration",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "1b74e18608375da32bb96354fae4cc3639fa6a8730fc88f94fe4babd342e64cb",
+    "input_hash": "48b6a114007f659fb70e949dc3a99cd9db6d3dbe013d43e4eb35b8db032dd034",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1076/Yuehong_v._Minister_of_Citizenship__Immigration_Canada_19_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-029",
+    "title": "ECLI:NL:RBNNE:2025:4814",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "ed645958c3a724cc0ac92970ec7cfda2593067a28ea201ff75339fc80bf6ce4c",
+    "input_hash": "33f754bf31c38ee0e3035ec309d71652bfa344d9fc3f5ff3b79049078de4c873",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1135/ECLI_NL_RBNNE_2025_4814_Rechtbank_Noord-Nederland_C_18_244013___HA_ZA_25-101.pdf"
+  },
+  {
+    "case_id": "L1-031",
+    "title": "United States v. Thomas Czartorski, et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "624b766839b7bb848f10d6b607348bae782ed13e6dbadb713436f826533b9a3d",
+    "input_hash": "c89d23586216a9b0230a7054194b425feb2ee6ca1b790fdc50b1aefa9c337ced",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1024/USA_v_Czartorski_USA_10_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-032",
+    "title": "Isaacs v. Novartis Pharmaceuticals Corporation",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "ae683deb6c04e33ec391ab6b9f56621e145c5cb35ae1407d160bc7442e95be5d",
+    "input_hash": "f360f127e48570c3086b9368dba5101768e94ff104aa6e9115ec3e6d1e4b09ce",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1013/Isaacs_v._Novartis_USA_3_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-034",
+    "title": "Joy Wilson v. KIPP Texas, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "fe28823f35487b84c8f9e1672c89835aeb4b64509ac65922ddd4e8f04f6e87a8",
+    "input_hash": "36870ef2eb0a49809e2a5541fc6e02d4194672d2e739490797832a6cd0d9bbdc",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/958/Wilson_v._Kipp_Texas_USA_29_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-035",
+    "title": "Mezu v. Mezu",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "9349f1e06619c72336a74274b23eb86dd88e5a5f458784cd480cd19c089001e9",
+    "input_hash": "85beb11b8486058855abb6486a3f8d8a7d9e58f8c1282085d082612186d59377",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/959/Mezu_v._Mezu_USA_29_October_2025.PDF"
+  },
+  {
+    "case_id": "L1-036",
+    "title": "In re: Sanctions Order of Kenney",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "653a7dfb4aacc22d830bfc9d25482018ca0bedd6997cea9abe8a141e81055655",
+    "input_hash": "0cd7220958eda0fcfe889473f12078356c987e12cecc064d86cbc3a1cf202cdc",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/899/In_re_Sanctions_Order_of_Kenney_USA_23_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-037",
+    "title": "Mattox v. Product Innovation Research",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "dd3202febbaa3bf5c03b0d6ac293d26e9f51159aa9600c994b399ee4d2c0f21a",
+    "input_hash": "b26d711523cefa0fae5750a638fbe151d6cfcb502664133039d26d756347a5f3",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/904/Mattox_v._Product_Innovations_Research_USA_22_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-038",
+    "title": "Safe Choice, LLC v. City of Cleveland",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "e2e308ea6b841ebdd3a29513c6e26bd00a3df53a4aca1564b66ee8b9a6f34b36",
+    "input_hash": "c0c2f1d4497950ab5090edac12824e58643208c3a401aa42ecf17efa2594018d",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/961/Safe_Choice_v._City_of_Cleveland_USA_30_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-039",
+    "title": "Ndaryiyumvire v Birmingham City University",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "3ab6568bee9d54bd2d1b7303576405c47dbf1698d907516d38f47438679a8e05",
+    "input_hash": "150ad7ed3cec0a56acc444fca4bb134aaab8285d5fc1e67a6f41543db112b124",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1672/Ndaryiyumvire-v-Birmingham-City-University_UK_14_October_2026.pdf"
+  },
+  {
+    "case_id": "L1-040",
+    "title": "United States v. McGee",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "b35afea10c78417fc446ac04c9f2f3036c5a6ab302c13ade17e7f17c4f17d483",
+    "input_hash": "e61fd80170b9144f7e47e708f2a1664617dec38ddf52426b3fe38c1fa288d65d",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/862/USA_v._McGee_10_OCtober_2025.pdf"
+  },
+  {
+    "case_id": "L1-041",
+    "title": "AK v Secretary of State for the Home Department",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "c1a44b9ef462f865d9506553c865c70d2dffe7cd3fd31f238e132df209cc3be8",
+    "input_hash": "0ca7c715b119b28f49e83203bc55c1da69c1a78ff859e95c0ffcec1950a78311",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/901/UI2025002918.pdf"
+  },
+  {
+    "case_id": "L1-042",
+    "title": "Smith v. Athena Construction Group",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "032580d9f944f21d7008a39879730de0fae42aee4c7564357a4bf42ca387ff55",
+    "input_hash": "141f32a4e7992899037e29d154890bcb856ef7ea4f927ed5e316288ebf4e0c70",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/850/SMITH_v_ATHENA_CONSTRUCTION_GROUP_INC__dcdce-18-02080__0201.0.pdf"
+  },
+  {
+    "case_id": "L1-043",
+    "title": "Khoury v. Intermountain Health Care",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "38854959e44aa6ccbfa6f80fa9dfecb68f451f3c6204e99c5294c713ea4c5e3f",
+    "input_hash": "393d9555b772923d1de7adc5be75033c0e7aa7cf0f40dd6520cbf8149a23f89f",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/843/Khoury_et_al_v_Intermountain_Health_Care_Inc__utdce-20-00372__0307.0.pdf"
+  },
+  {
+    "case_id": "L1-044",
+    "title": "ANPV & SAPV v Secretary of State for the Home Department",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "d588024233357d5675e3bd51a3fdc757ae6ca8abb725a8c65eb02c4fb77acde4",
+    "input_hash": "8d79eb505934ff0111637a8472bde623249e0dc3b79fa50c8643e14e69ae04ea",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/884/UI-2025-003373___UI-2025-003374.pdf"
+  },
+  {
+    "case_id": "L1-045",
+    "title": "Lofton v. Grove Farms",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5056586eec1e6a5cca6becc666ca8cd585a9fa8941cc830ca92e51eea4a9a392",
+    "input_hash": "6962676bbf55d663c357a705f3025a7590007c85b689532917a8735036c78933",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1874/Lofton_v._Grove_Farms_USA_26_September_2025.pdf"
+  },
+  {
+    "case_id": "L1-046",
+    "title": "N.Z. et al. v. Fenix International Ltd. et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 77,
+      "data_provider": 0,
+      "human_operator": 23
+    },
+    "l1_distance": 120,
+    "decision_id": "812484b689c6ec502b96e94f87764dfc1e3d0af0767b9ed4afcfe27c977e9c88",
+    "input_hash": "33da11faf0edea8b9c47f508853b6af9724f8c2927cc52d5086b9fddbb4090c6",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1183/NZ_et_al_v._Fenix_International_USA_12_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-047",
+    "title": "Anthony C. Hill v. Workday, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "4f788c604c9a3e56cd42b7579bbf450e1b0ee5dc4bf17fc84cc1df9968305af0",
+    "input_hash": "7589e894240ed9df638ea41df5007db1f59abd0ecef726ed27943ff1e3a3a0f3",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/976/Hill_v._Workday_USA_5_September_2025.pdf"
+  },
+  {
+    "case_id": "L1-048",
+    "title": "Lee v. R&R Home Care, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "8862b4fc396936bc20986e4ed3311976f00607a1398392319e5ae6389e2c91bf",
+    "input_hash": "44b2443531af90518ea139435fd35c95037eac000a0152dcef64662a2d391558",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/780/Lee_v_RAndR_Home_Care_Inc.pdf"
+  },
+  {
+    "case_id": "L1-049",
+    "title": "In re Richburg",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5cca7007f2b9ce6c13c3dc32781e6b409897fe9a38a353bb2aca2a38997f3792",
+    "input_hash": "05ccc8d5ab910cce01937017540cda7908a1dfacd28e8891c1b05e66b9b76dfa",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/731/In_re_Richburg_USA_29_August_2025.PDF"
+  },
+  {
+    "case_id": "L1-050",
+    "title": "JNE24 v Minister for Immigration and Citizenship",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "8cf7f300ac207ac05d275f9813734150938d31486cd6e6c7530d6faeb16e4ec5",
+    "input_hash": "8af77960d7cdd1a0bc6d0a1c94645ad6ee5f8d30d79f8d5c4a767b2495ed7903",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/716/JNE24_v_Minister_for_Immigration_and_Citizenship.pdf"
+  },
+  {
+    "case_id": "L1-051",
+    "title": "MS (Bangladesh)",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "34f84afb53e22f92869d2e566e9fb16c24d62db8a96ab19d330c7e615944eb42",
+    "input_hash": "f03a3571ce168f9f510021a914f9159de20a7a49b827312a8809b5a644b14bec",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/806/305.pdf"
+  },
+  {
+    "case_id": "L1-052",
+    "title": "Marcus Groesser and Ira Hess v. Robert Phelps Herman",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "13752f08e28a0947e006bd2755453f6c3e4d88c6a6128df08ebb2ce2b402a6a5",
+    "input_hash": "f8f10e49cda6d6b96e09955e9174a513a5365c4f9e56fc4ba9da27806df1612a",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/658/Gruesser-Judgment.pdf"
+  },
+  {
+    "case_id": "L1-053",
+    "title": "Coronavirus Reporter Corp. v. Apple Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "3020edbee1060180158744cfdae2cb634c54b6bf027352cb9d6530be1b24cb57",
+    "input_hash": "455f6c6502b5c51cf879e3693a2f6f66a8af872716504de0b12c1ac20f55c2fb",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/637/Coronavirus_Reporter_v._Apple_USA_30_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-054",
+    "title": "Idehen v. Stoute-Phillip",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5ab2e73087bd10fdca78fe9be062b750156a9c04338863cbf2da62ab190b8de1",
+    "input_hash": "76458f86ea0b275b9b23c82fe8bf1420607ff68fbe629810d82c4a8c91dc8e6b",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/645/Idehen_v_Stoute-Phillip_USA_29_July_2025.PDF"
+  },
+  {
+    "case_id": "L1-055",
+    "title": "Johnson v. Dunn",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "2aa6fa76f3f0a0e0885a468d4f9812a2b7b1f90739667c32c391e2388ddaef6c",
+    "input_hash": "0cca92a97779e37b1efdac11bd493c68f2e2b4ed193fd880f17ac4b72f6c8992",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/608/Butler-Snow-Order.pdf"
+  },
+  {
+    "case_id": "L1-056",
+    "title": "ByoPlanet International v. Johansson and Gilstrap",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 42,
+      "deployer": 33,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 134,
+    "decision_id": "8a6a8dbdcda974367e23d447c7bcf47779742a8ac45c13ee958aeb972fb4ae66",
+    "input_hash": "2e57d58a33d78bef71b9f5a4c188b51b9cde4dab9bc5d28b7a3d6dabc4d85dff",
+    "output_hash": "6ea4952df6b9ca2dcaf0201d58374fe54164161115202859ff48b65feb98dcc0",
+    "primary_source_url": "https://caselaw.findlaw.com/court/us-dis-crt-sd-flo/117513089.html"
+  },
+  {
+    "case_id": "L1-057",
+    "title": "Gurpreet Kaur v. Captain Joel Desso",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "2a7e92a19d3e00fd180e8881703e36f597d625b3ed92c2bd9a8647b110d83903",
+    "input_hash": "43fda9e847185358caa91e4d37e3461c73499248b31082ffee2a4a5f7d027df7",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/581/Kaur_v._Desso_NDNY_9_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-058",
+    "title": "Coomer v. Lindell",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "9526b3ecfc3141446a0a4a75a48ad49a344eca71034cfa5ed443b6391d91616c",
+    "input_hash": "3a91958320c6496828b0136271a7bcac89dcb68798f3772a1a7968207552ba13",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/566/Coomer_v._Lindell_USA_7_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-059",
+    "title": "Murray v. State of Victoria",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "4653b7340a006685772ac0d1ae88ac3fd091109f3236f696899c12d53006b722",
+    "input_hash": "c32c0f6bfa69d1c9e7ef9f6f9e840902b52278537a8310b8ef55ee4b3ee5e086",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/533/Murray_v._Victoria_2_July_2025_Australia.docx"
+  },
+  {
+    "case_id": "L1-060",
+    "title": "Northbound Processing v. South African Diamond Regulator",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "024fd10938c4bbdf2b12e081cc0f986419c5eca6f01779189717ccdfbe4408c8",
+    "input_hash": "58d4a2f8c1d41aaf9efabe668815350a392525f07e126e15d88768f17d012061",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/531/Northbound_Processing_v._SA_Diamond_Regulator_South_Africa_30_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-061",
+    "title": "Dastou v. Holmes",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "916f9461639f627f3dc4ee48799a696e2c0e9d037f464e1eb484f0e9fb3cfac2",
+    "input_hash": "134090c204e9e238e96690e9eb88cd4b77ccd55fd0bf7342fdb54da911874b51",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/585/Dastou_v._Holmes.pdf"
+  },
+  {
+    "case_id": "L1-062",
+    "title": "Hussein v. Canada",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "65467594ff1fae9a6cd675e9362863b694b72299ccc29b241709b1eae7472226",
+    "input_hash": "24200634aa0d9d8954ae42c55b67401ad99a8a8f1012aa209b991391ba8a3d93",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/573/Hussein_v._Canada_Canada_24_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-063",
+    "title": "Mintvest Capital, LTD v. NYDIG Trust Company",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "5f835a3753344aa68bb29a9dc2926afb10119d969718e0261bbb0b47323fecec",
+    "input_hash": "f536f5d47449a571698f3a280204b389be7a3a7b38a5f541cd47061c4f90ccd8",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/561/Mintvest_Capital_LTD_v._NYDIG_Trust_Company_et_al_USA_23_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-065",
+    "title": "Ko v. Li",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "f6356ce87d9f3861c22f35d0f869fe935c05956d603d8dcb64baf24ab7dd2cc3",
+    "input_hash": "6156139694ff8014b2c117e31c5863f8269cf3a9b424231af975c560d977e494",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/451/Ko_v._Li_Ontario_SC_Canada_May_28_2025.pdf"
+  },
+  {
+    "case_id": "L1-066",
+    "title": "Mahala Association v. Clalit Health Services et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "0bad19fd2b2853c699f9d9659118fa93438eeb56625d80ec63b252053c0ca956",
+    "input_hash": "d69e68a82f2b29b25e2990be914c11943e8fe798520a467d3d3920b2dffefeb3",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/442/Mahala_Association_v._Clalit_Health_Services_et_al._Israel_May_22_2025.pdf"
+  },
+  {
+    "case_id": "L1-067",
+    "title": "USA v. Burke",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "570716f582efc7a1f7811267088161705764b2dd98922b030b283ef4aa7c6e07",
+    "input_hash": "88e0e3a1f96c2ec9aa0a5c93058a5f27b31194b68b5c58ee3ca4db95f277685a",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/438/USA_v._Burke_M.D._Florida_USA_May_15_2025.pdf"
+  },
+  {
+    "case_id": "L1-068",
+    "title": "Santana Andrade v. TST",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "e238af866931ebc87e9bcb9168947ada87f9dcce86e5a8f3ddab82103e26902e",
+    "input_hash": "cca24ce75a2b138a4f5123009295264d9f44c0498c4521b9145c0c99b821e8e1",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/334/Santana_Andrade_v._TST_Brazil_May_12_2025.pdf"
+  },
+  {
+    "case_id": "L1-069",
+    "title": "Reclamação (RCL) 78.890 / BA",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "f06ac7c5a268300cda3f62f02550e35b1d48ff131e6ef25d0948c2aa535f073a",
+    "input_hash": "255ac15c54bc58e84363d1ec4702d3bfd1f7fff94607333ef80602b1c53ee0d6",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/758/8E03AC1BCB6B0B_downloadPeca2.pdf"
+  },
+  {
+    "case_id": "L1-070",
+    "title": "Gilmai v Tol & Ors",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "751c1b3043fed64ba8f037c0ee445c0d81da12c7d7af4dcafba40603c1826015",
+    "input_hash": "5b990e410c4c5d3768e7974b29095da7229182735e3c8be3d6a20f356e168c47",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1018/OS_No_279_of_2024_-_Gilmai_v_Tol__Ors_250509_145925_1.pdf"
+  },
+  {
+    "case_id": "L1-071",
+    "title": "Crystal Truong v. Flint Hills Resources",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "69f8558e7d6747da65f0f2d2f5744ddf7e8f8581bb9073f2762a2f82dbae2b53",
+    "input_hash": "8d1c7c2a05c54534fae0ac59b20e8cddf8b63924a5ecf2d23f5c5794e3bc9a2c",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/631/Truong_v._Flint_Hills_Resources_USA_14_April_2025.Pdf"
+  },
+  {
+    "case_id": "L1-072",
+    "title": "Mazurek et al. v. Thomazoni",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "386e1d39d9dd80588195231290e4dcfb251ba0b391018e02e7008a5359588a03",
+    "input_hash": "262ce7a5ebea7a7fa6263a6eb29687593272fdc7e0383960fd081934357bdb5c",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/479/Mazurek_v._Thomazoni_Brazil_2_April_2025.pdf"
+  },
+  {
+    "case_id": "L1-073",
+    "title": "D'Angelo v. Vaught",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "d59763a7d588047b6cc477c517f56e002d58bc95c90c65af25ed94d82fd8f890",
+    "input_hash": "4e58ce371da2e112162924e6d40f0211b2394ec0c9f9277bb3dc4a5fb35067be",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/609/Dangelo_v._Vaught_USA_2_April_2025.pdf"
+  },
+  {
+    "case_id": "L1-074",
+    "title": "QWYN and Commissioner of Taxation",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "63b1b2f3657c35eed25dcefd67cbe3dcf4b1489660655996ebf8a0b854ee8604",
+    "input_hash": "e8819b808e6274505892db06c33d3a663e26a205ebce8433bcf9a0a4a0ef1de2",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/542/QWYN_and_Commissioner_of_Taxation_Australia_5_February_2025.pdf"
+  },
+  {
+    "case_id": "L1-075",
+    "title": "Valu v Minister for Immigration and Multicultural Affairs (No 2)",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "4c930bdc9fe63461e9f0c8139e88d7876983225c4402ab0363d8d43213ae9cd1",
+    "input_hash": "0a9d34cc0f9117116745a9b8b4c3bd5c80bff0322e28edf8ee5baf74cac118e3",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/430/Valu_v._Minister_for_Immigration_and_Multicultural_Affairs_Australia_31_January_2025.pdf"
+  },
+  {
+    "case_id": "L1-076",
+    "title": "Gonzalez v. Texas Taxpayers and Research Association",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "c7f789f416e4c60c407f290abca00e0e066b298312150c9b04a1cb31f101ccbf",
+    "input_hash": "63c5d630f51e1b0f61d36b4f78bda57a1be40c83533124a8122266f0f971b87e",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/576/Gonzalez_v._Texas_Taxpayers_and_Research_Association_USA_29_January_2025.pdf"
+  },
+  {
+    "case_id": "L1-077",
+    "title": "USA v. Michel",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "27dbf91a0720e8ae18b3d7d15ad34ef05c03f00c099b6ae7fab67b0f32c7670d",
+    "input_hash": "d12feb3597a586e9988112349f504cac1537e31dc50c7ee40330372ae1b23810",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/475/USA_v._Michel_DDC_USA_30_August_2024.pdf"
+  },
+  {
+    "case_id": "L1-078",
+    "title": "In re Dayal",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "e36bf0a9843373fd2df6b32b766cc6048235406e59d987b86c47bc28cef4a373",
+    "input_hash": "315f081837ca7c0b01902e45336b6913d234b4c25f309fae9b51df033be84907",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/361/In_Re_Dayal_Australia_August_27_2024.pdf"
+  },
+  {
+    "case_id": "L1-079",
+    "title": "Zhang v. Chen",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "609b9a6559c8c273c3a163fc2adfe5d71565e6798b33c2e087f95d530ad4dcb5",
+    "input_hash": "0a9b0e759027708af0c45201a3acb6ba21edfbd2f2b8405fc32b9bd4b639b076",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/772/Zhang_v._Chen.pdf"
+  },
+  {
+    "case_id": "L2-002",
+    "title": "EEOC v. iTutorGroup, Inc.",
+    "domain": "hr_employment",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "68bc3bf3151f921524e87fafcef657f78c19fdcebdc944a26f8d73bb5d4c99e9",
+    "input_hash": "dc822cb0fb7aff1774a4a5007a0c87dbd9428ad37e312f8df139efdf9cce372a",
+    "output_hash": "84443bfbcae52e16a14212604537f0a9b513e91bc3a30d422e3ed52c7a5592a9",
+    "primary_source_url": "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/160671.pdf"
+  },
+  {
+    "case_id": "L2-003",
+    "title": "Louis v. SafeRent Solutions, LLC",
+    "domain": "consumer_retail",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 80,
+    "decision_id": "7b4449710ca87baf8458ab8de1451131ee778df2e15e1ab87e00b30d5f992343",
+    "input_hash": "7d45a65d1c5098339b72b3f71887135da5a50630f1f3ba9d522450a1cd458917",
+    "output_hash": "84443bfbcae52e16a14212604537f0a9b513e91bc3a30d422e3ed52c7a5592a9",
+    "primary_source_url": "https://www.justice.gov/crt/media/1310736/dl"
+  },
+  {
+    "case_id": "L2-005",
+    "title": "State v. Loomis",
+    "domain": "criminal_justice",
+    "failure_category": "algorithmic_government_action",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 20,
+      "deployer": 55,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 90,
+    "decision_id": "02ae879bbf2b1dfe36114477a44226df96cb6d3c4b167ce734114172c98edac7",
+    "input_hash": "820d16e43f0c5973a36e85180871b3e11f281f497055e5ce2dd0188807d50ebc",
+    "output_hash": "bea546889caf57a3781f289b6e6b6fa454f382e34a6e1db95cadc1c2aeb59317",
+    "primary_source_url": "https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&seqNo=171690"
+  },
+  {
+    "case_id": "L2-008",
+    "title": "Garante per la protezione dei dati personali v. Replika (Luka Inc.)",
+    "domain": "consumer_retail",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 50,
+    "decision_id": "f8191a61b15eff4e14ce39e41f0a1546ff8df955f86196c3cb231dd6a22f084f",
+    "input_hash": "40dc459e70dd7f156a6d52e0480c90a8f7695e30f74a539970969808f2cc0520",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852214"
+  },
+  {
+    "case_id": "L2-009",
+    "title": "Garante v. OpenAI (provisional limitation order)",
+    "domain": "media",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 150,
+    "decision_id": "6994c2f5705f388f1abf4cc8bc1222ec91d0218b97b8e0e9442610e46babc7b7",
+    "input_hash": "2a511e971f6b928e9291093e033aba7fa2ccc83c08a250eb0b263f8db864bcaf",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9870832"
+  },
+  {
+    "case_id": "L2-016",
+    "title": "ICO v Clearview AI Inc",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 150,
+    "decision_id": "1bd49ad724aa08b71a5b34403fa2b072f1b359804c2b3281e75129ca90606ded",
+    "input_hash": "146042ea5ee4800ab31928d8f3281fd207b5215e1ba1269cc38ed38decb34035",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://assets.publishing.service.gov.uk/media/67054a32103ca7c405572911/The_Information_Commissioner_s_Office_v_Clearview_AI_Inc__Privacy_International_intervening___2025__UKUT_319__AAC_.pdf"
+  },
+  {
+    "case_id": "L2-017",
+    "title": "CNIL v. Clearview AI (France)",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 150,
+    "decision_id": "4e8ba6fafb4ede2b7312ee6c10dc0f9cb2a9dbdd4df2c6a5aee088d44bf011b3",
+    "input_hash": "b9d4005761159fefebf977ba43909c411b3442bbb177e66d472de5cfd63ce3b3",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://www.legifrance.gouv.fr/cnil/id/CNILTEXT000046444859"
+  },
+  {
+    "case_id": "L2-018",
+    "title": "ICO v. Serco Leisure",
+    "domain": "hr_employment",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 50,
+    "decision_id": "7fd6ea3ccaf970637a9a3ca9f3f4a0afda5a2dcc55325d64f28597ec89dd4651",
+    "input_hash": "f0f53cac4b52e432979659dac17b9b76c488a76c3c5eb148c78624dae234598b",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf"
+  },
+  {
+    "case_id": "L3-002",
+    "title": "NTSB HWY18FH011 — Walter Huang / Tesla Model X",
+    "domain": "automotive",
+    "failure_category": "autonomy_handover",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "human_operator",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 50,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "l1_distance": 80,
+    "decision_id": "3c0ac7449c5e124fd0660a4fa44191d443c7cc7f97546bdfd06a2b7654d08b8d",
+    "input_hash": "ce0e449bdf02dbcc972d3e4cc0be2f0cc1d6c1eea6fc95a0ef043a63044ba0de",
+    "output_hash": "adb110bb488cb9d973c56bf80d7d6d72754fd97494daa6f4e5ce261f25993322",
+    "primary_source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR2001.pdf"
+  },
+  {
+    "case_id": "L3-003",
+    "title": "NTSB HWY18MH010 — Elaine Herzberg / Uber ATG",
+    "domain": "automotive",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "human_operator",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 55,
+      "deployer": 25,
+      "data_provider": 15,
+      "human_operator": 5
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "l1_distance": 140,
+    "decision_id": "d1b12acd8d963c15416b53033007da1f30c93aa227ac2844892991593d31a419",
+    "input_hash": "d6397b65ff31ad7ddf3d47b33738546626a249ca867bfe800b82f02f04b1867f",
+    "output_hash": "32d237b31bd1bcbf155996f1c2a237231fa48da5df599911aa76d77a193facba",
+    "primary_source_url": "https://www.ntsb.gov/investigations/accidentreports/reports/har1903.pdf"
+  },
+  {
+    "case_id": "L3-005",
+    "title": "DOJ / NHTSA v. Cruise LLC",
+    "domain": "automotive",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 55,
+      "deployer": 25,
+      "data_provider": 15,
+      "human_operator": 5
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 150,
+    "decision_id": "d3dda6de5147c66164c3b620a7aeb174ed6455e4ee16313a32954d419440ebd3",
+    "input_hash": "ec7c40fb85bd4cacbab9b98d060e695ddf62a1822ec2e72dc7ac4fe7ff6ed83b",
+    "output_hash": "32d237b31bd1bcbf155996f1c2a237231fa48da5df599911aa76d77a193facba",
+    "primary_source_url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/2024-09/cruise-consent-order-2024-web.pdf"
+  },
+  {
+    "case_id": "L3-006",
+    "title": "NHTSA EA22-002 Tesla Autopilot recall",
+    "domain": "automotive",
+    "failure_category": "autonomy_handover",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "human_operator",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 180,
+    "decision_id": "02a4b30f006b3c56c18fac54e3f346a9a707c7cd99d746a06e49358ca6bdfed4",
+    "input_hash": "758957fa81bf07c72e9fdc482471e62c4bbe4880d9516de726eaa9b2d92b0aa1",
+    "output_hash": "adb110bb488cb9d973c56bf80d7d6d72754fd97494daa6f4e5ce261f25993322",
+    "primary_source_url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V838-8276.PDF"
+  },
+  {
+    "case_id": "L3-007",
+    "title": "California PUC suspension of Cruise driverless permits",
+    "domain": "automotive",
+    "failure_category": "specification_oversight",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "human_operator",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 160,
+    "decision_id": "ca811bcc35fe0ed5bc0f8a92e0d85af814b3ba3e690615d996472d5b6f29a727",
+    "input_hash": "f0cbd80df361f91183bce7a3ef76d3c640060e6db6de3cdb29b4e5d75bef6849",
+    "output_hash": "adb110bb488cb9d973c56bf80d7d6d72754fd97494daa6f4e5ce261f25993322",
+    "primary_source_url": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M536/K690/536690391.PDF"
+  },
+  {
+    "case_id": "L4-001",
+    "title": "Williams v. City of Detroit",
+    "domain": "criminal_justice",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 45,
+      "deployer": 24,
+      "data_provider": 12,
+      "human_operator": 19
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 152,
+    "decision_id": "020cc56c6468c7290f79591c290cf0ab0e4d2e478675f91c263d974f4cfb2e47",
+    "input_hash": "36baaa59ea0935196ffb0d70f4aa5f85d77cbd0c43dd13705e17a5029d91b0f6",
+    "output_hash": "2d6a45c8df535b664ad3ad491f011d15baf9ecff3e856a7a0aecd3f0b794af7c",
+    "primary_source_url": "https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf"
+  },
+  {
+    "case_id": "L4-008",
+    "title": "Woodruff v. Oliver",
+    "domain": "criminal_justice",
+    "failure_category": "pipeline_data_quality",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 20,
+      "deployer": 75,
+      "data_provider": 5,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 50,
+    "decision_id": "85f52baf74a18ed8099c9f5e69bad5c3c47180b3a86100da10220097c97777c0",
+    "input_hash": "8effaf1f4695fc7fbef568a0d94f174173d0f79ccb77018ac1af51c36ecf9e08",
+    "output_hash": "7e49117a0aca3525db6974dcb9e8b5c68ef9c01fe83e1a715c74f42a41871876",
+    "primary_source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf"
+  },
+  {
+    "case_id": "L5-001",
+    "title": "FTC v. Rite Aid Corp.",
+    "domain": "consumer_retail",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "199824618e483616834b2364215c36da6edce0af14046df59d344cf9469d1431",
+    "input_hash": "39cf7d97830ff2bc0836c043b37d5574e748d3cc81e6f90dcd9b642b0a5c5ba9",
+    "output_hash": "84443bfbcae52e16a14212604537f0a9b513e91bc3a30d422e3ed52c7a5592a9",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023190_riteaid_complaint_filed.pdf"
+  },
+  {
+    "case_id": "L5-002",
+    "title": "FTC v. DoNotPay, Inc.",
+    "domain": "legal_services",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "6e00b680fa25f17f988fa8ce5853caf12d68771e485532f5a5d7a6c5ce8d6579",
+    "input_hash": "19df72433967d59908125dd4187135497e3761a11164cbda1bc37bf3f64be531",
+    "output_hash": "7ae68ce6957dfd900237aa3c2cf1a130cc886a02d69eea686e7d42131083b08d",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323042_donotpay_complaint.pdf"
+  },
+  {
+    "case_id": "L5-004",
+    "title": "FTC v. Cleo AI",
+    "domain": "financial_services",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "d8fa594791573a87ad1f5c7c9bbf9a29038dd9c797d67d1475c4a18653a09f6a",
+    "input_hash": "17a5e67eefcd5d01bb5457d3c89c98d174c4dc8ac776e3ad865aa61dd3a11252",
+    "output_hash": "7ae68ce6957dfd900237aa3c2cf1a130cc886a02d69eea686e7d42131083b08d",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Cleo-COMPLAINT.pdf"
+  },
+  {
+    "case_id": "L5-005",
+    "title": "FTC v. Evolv Technologies",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 58,
+      "deployer": 34,
+      "data_provider": 6,
+      "human_operator": 2
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 84,
+    "decision_id": "ea7643c7f24865647757e710b492b721687f16eb6db82ea991d4ba1590f29c2a",
+    "input_hash": "3fb9369036a838e55d2550ff8b2497eec0821335db0f0b7c5449f019873f83ed",
+    "output_hash": "03d83caf5ca2a6049a018ea749c9fcc14bca4751763e5bc3277e50e733f5fc7c",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/EVOLVCOMPLAINTFILED.pdf"
+  },
+  {
+    "case_id": "L5-006",
+    "title": "FTC v. IntelliVision Technologies",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 80,
+    "decision_id": "7b923d2f7f7e7cde6b9155210cbdcac3c24def0147de638be4c6c9515df709a7",
+    "input_hash": "fd8927c46297c732ff5a78d9742b1f3a3f8f44685008f6438d67afd3d13848a0",
+    "output_hash": "7ae68ce6957dfd900237aa3c2cf1a130cc886a02d69eea686e7d42131083b08d",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Complaint-IntellivisionTechCorp.pdf"
+  },
+  {
+    "case_id": "L5-007",
+    "title": "FTC v. accessiBe",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 80,
+    "decision_id": "af401920893142df8ca56445c75823eeefa36bd04574b7312d16f73c8e9dfb7f",
+    "input_hash": "48d94d2f609bd6731cbf2a60fd32a072ef967ee20b6c325b1235da9594286f93",
+    "output_hash": "7ae68ce6957dfd900237aa3c2cf1a130cc886a02d69eea686e7d42131083b08d",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/d-o.222_3156_-_accessibe_final_consent_package_without_signatures-2.pdf"
+  },
+  {
+    "case_id": "L7-001",
+    "title": "Walters v. OpenAI, L.L.C.",
+    "domain": "media",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "l1_distance": 200,
+    "decision_id": "9f93338cc6abfa5c4ee3d724daa0e470dbe532f20ea8356b49bd2a3cd8e4e1a3",
+    "input_hash": "c38d5f2fd7e59a7c2352e4d723b25e187c331c6d3f47b22cc74c496a85f23791",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://reason.com/wp-content/uploads/2025/05/WaltersvOpenAISJOrder.pdf"
+  },
+  {
+    "case_id": "L7-003",
+    "title": "Moffatt v. Air Canada",
+    "domain": "consumer_retail",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "5554b2a37ef622a4469aa8a5db27ea58992b2c9bd7a64874db0f810f33c99cbf",
+    "input_hash": "76cfabceaa77a2ee60755ec504c9c7b8c3ea65b711fd4509c79d3d3fa91ddec6",
+    "output_hash": "110de9c6918270357ddf1bd65becea16aabd32976c54d98082882e4f747f6989",
+    "primary_source_url": "https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+  },
+  {
+    "case_id": "L7-008",
+    "title": "Thomson Reuters Enterprise Centre GmbH v. ROSS Intelligence Inc.",
+    "domain": "legal_services",
+    "failure_category": "intellectual_property",
+    "ground_truth_confidence": "medium",
+    "predicted_primary": "data_provider",
+    "ground_truth_primary": "ai_provider",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 70,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 180,
+    "decision_id": "fca4d3a49c21f01255e732375cea0a62f09cab59de5ecf4f4e33426c7f72d6eb",
+    "input_hash": "636353f755f85ab3829b8dd08bd15b2c300a254604241de8ad50f442f39748db",
+    "output_hash": "ec282d993c0ad5b0a8da38f9e9c00a6aa15d07cade2a709898dfe0d1b35279ba",
+    "primary_source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-ded-1_20-cv-00613/pdf/USCOURTS-ded-1_20-cv-00613-5.pdf"
+  },
+  {
+    "case_id": "L8-001",
+    "title": "R (Bridges) v. Chief Constable of South Wales Police",
+    "domain": "criminal_justice",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "ai_provider",
+    "ground_truth_primary": "deployer",
+    "primary_match": false,
+    "predicted_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 120,
+    "decision_id": "1dc1b1b296d0cba17db8dc10ed6e45ee00550141df4b3339c223dce53866a1bb",
+    "input_hash": "25eba9c1d296b786c6b079e0d8274425472b172bd89663c8a21151cc25feda08",
+    "output_hash": "84443bfbcae52e16a14212604537f0a9b513e91bc3a30d422e3ed52c7a5592a9",
+    "primary_source_url": "https://www.judiciary.uk/wp-content/uploads/2020/08/R-Bridges-v-CC-South-Wales-ors-Judgment.pdf"
+  },
+  {
+    "case_id": "L8-002",
+    "title": "NJCM v. State of the Netherlands (SyRI judgment)",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 50,
+    "decision_id": "f48f8cea5e40b701553f4beab6e3b64cd11a8af70493b2196d2250cdecc54d47",
+    "input_hash": "291cd24ec9befaf0843c5ed64fe385f432ce5831efb01e4ef382d5e1031ea20a",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878"
+  },
+  {
+    "case_id": "L8-004",
+    "title": "Robodebt — Federal Court class-action",
+    "domain": "government",
+    "failure_category": "algorithmic_government_action",
+    "ground_truth_confidence": "high",
+    "predicted_primary": "deployer",
+    "ground_truth_primary": "deployer",
+    "primary_match": true,
+    "predicted_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "ground_truth_allocation": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "l1_distance": 50,
+    "decision_id": "f9ad6834c50825cd16e0c87692124943ffa1a104e61ed16664514e813d6554b4",
+    "input_hash": "06c184a63335e819012224fcae5dd70d3d3d2518bdd48522c7c72e93237e77fa",
+    "output_hash": "fd793c2fcfe655d19809f500091bf7cc1410affc45e2b67042f0fe84cf4aea6d",
+    "primary_source_url": "https://gordonlegal.com.au/app/uploads/2023/08/prygodicz-v-commonwealth-of-australia-no-2-2021-fca-634-summary.pdf"
+  }
+]
