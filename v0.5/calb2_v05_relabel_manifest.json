@@ -1,0 +1,25 @@
+{
+  "n_relabeled": 1,
+  "relabels": [
+    {
+      "case_id": "L2-008",
+      "title": "Garante per la protezione dei dati personali v. Replika (Luka Inc.)",
+      "primary_business_model": "ai_as_product",
+      "rationale": "Luka/Replika is the AI as product (consistent with L1-104, L6-108). v0.4 labeled this case 'deployer' inconsistently with sibling cases on the same company. v0.5 corrects to 'ai_provider' under the documented rule.",
+      "v04_liability_allocation": {
+        "ai_provider": 0,
+        "deployer": 100,
+        "data_provider": 0,
+        "human_operator": 0
+      },
+      "v05_liability_allocation": {
+        "ai_provider": 100,
+        "deployer": 0,
+        "data_provider": 0,
+        "human_operator": 0
+      },
+      "v04_primary": "deployer",
+      "v05_primary": "ai_provider"
+    }
+  ]
+}

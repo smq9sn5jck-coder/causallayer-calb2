@@ -1,0 +1,130 @@
+{
+  "cycle": "v0.5 corpus + v0.8.1 engine",
+  "n_cases": 137,
+  "v07_v04": {
+    "legal_pct": 75.91240875912408,
+    "causal_pct": 66.42335766423358,
+    "legal_l1": 48.175182481751825,
+    "causal_l1": 76.14598540145985
+  },
+  "v08_v04": {
+    "legal_pct": 79.6,
+    "causal_pct": 66.4,
+    "legal_l1": 38.9,
+    "causal_l1": 76.1
+  },
+  "v081_v05": {
+    "legal_pct": 87.59124087591242,
+    "causal_pct": 66.42335766423358,
+    "legal_l1": 23.605839416058394,
+    "causal_l1": 76.14598540145985
+  },
+  "total_delta_legal_pp": 11.68,
+  "total_delta_legal_l1": -24.57,
+  "remaining_legal_misses": 17,
+  "miss_distribution_by_doctrine": {
+    "FRCP Rule 11 / Professional Non-Delegable Duty": 10,
+    "Assumption of Risk / Contributory Negligence": 1,
+    "FTC Section 5 Deceptive Marketing / Integrated Marketer": 1,
+    "Negligent Deployment / Constructive Knowledge": 3,
+    "Comparative Negligence / Shared Fault": 2
+  },
+  "per_category": [
+    {
+      "category": "deceptive_marketing",
+      "n": 5,
+      "legal_pct": 60.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "bias_discrimination",
+      "n": 12,
+      "legal_pct": 75.0,
+      "causal_pct": 83.33
+    },
+    {
+      "category": "adversarial_exploit",
+      "n": 4,
+      "legal_pct": 75.0,
+      "causal_pct": 100.0
+    },
+    {
+      "category": "privacy_consent",
+      "n": 6,
+      "legal_pct": 83.33,
+      "causal_pct": 100.0
+    },
+    {
+      "category": "hallucination_fabrication",
+      "n": 79,
+      "legal_pct": 87.34,
+      "causal_pct": 73.42
+    },
+    {
+      "category": "algorithmic_government_action",
+      "n": 2,
+      "legal_pct": 100.0,
+      "causal_pct": 100.0
+    },
+    {
+      "category": "autonomy_handover",
+      "n": 2,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "perception_sensor_failure",
+      "n": 3,
+      "legal_pct": 100.0,
+      "causal_pct": 33.33
+    },
+    {
+      "category": "specification_oversight",
+      "n": 1,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "pipeline_data_quality",
+      "n": 1,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "intellectual_property",
+      "n": 1,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "specification_failure",
+      "n": 5,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "oversight_failure",
+      "n": 1,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    },
+    {
+      "category": "perception_failure",
+      "n": 7,
+      "legal_pct": 100.0,
+      "causal_pct": 100.0
+    },
+    {
+      "category": "sensor_distribution_drift",
+      "n": 3,
+      "legal_pct": 100.0,
+      "causal_pct": 100.0
+    },
+    {
+      "category": "pipeline_integration",
+      "n": 5,
+      "legal_pct": 100.0,
+      "causal_pct": 0.0
+    }
+  ]
+}
