@@ -1,0 +1,19 @@
+case_id,title,domain,failure_category,doctrine,predicted,gt,L1
+L1-256,Battle v. Microsoft Corp.,media,defamation_by_ai,Strict Product Liability / Vertically-Integrated Producer (AI-as-Product),ai_provider,external_actor,100
+L2-203,AEPD Spain Ban on Worldcoin Biometric Iris Scanning,financial_services,privacy_consent,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L2-206,South Korean PIPC Fine to Meta for Unlawful Targeted-Advertising AI Inferences,media,privacy_consent,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L4-204,NTSB Investigation on Tesla Autopilot Williston Florida Fatal Crash,automotive,perception_sensor_failure,Regulatory Action / Statutory Liability (Provider),ai_provider,external_actor,100
+L4-205,Waymo NHTSA Recall 24E-013 for Software Collision Avoidance Issue,automotive,perception_failure,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L5-201,Massachusetts AG Settlement with Joshua Hyman / Sumiyo Inc. over AI Lawyer Marketing,legal_services,deceptive_marketing,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L5-204,FTC v. CRI Genetics (2023),consumer_retail,deceptive_marketing,FTC Section 5 Deceptive Marketing / Provider,ai_provider,deployer,200
+L6-202,Italian AGCM fine against TikTok for French scar challenge,media,oversight_failure,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L7-201,Mata v. Avianca Inc.,legal_services,hallucination_fabrication,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L7-202,"Park v. Kim, 91 F.4th 610 (2d Cir. 2024)",legal_services,hallucination_fabrication,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L7-203,Wadsworth v. Walmart Inc. (D. Wyo. Feb 2025),legal_services,hallucination_fabrication,Negligent Operations / In-House Algorithmic Failure,deployer,human_operator,200
+L7-204,People v. Zachariah C. Crabill,legal_services,hallucination_fabrication,Regulatory Action / Statutory Liability (Deployer),deployer,human_operator,200
+L7-205,DPP v. AB (Australia) - Victorian solicitor referred to legal-services board after AI-generated case citations submitted in family-court matter,legal_services,hallucination_fabrication,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L7-251,Walters v. OpenAI L.L.C.,media,defamation_by_ai,Strict Product Liability / Vertically-Integrated Producer (AI-as-Product),ai_provider,human_operator,200
+L8-201,Robodebt Royal Commission Final Report,government,algorithmic_government_action,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L8-204,DOJ Investigation into Allegheny County Family Screening Tool,government,bias_discrimination,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L9-203,Ethiopian Airlines Flight 302 Boeing 737 MAX Crash,aviation,perception_sensor_failure,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L9-205,KNKT Investigation on Sriwijaya Air Flight SJ-182 Boeing 737-500 Autothrottle Anomaly,aviation,perception_sensor_failure,Regulatory Action / Statutory Liability (Deployer),deployer,human_operator,140
