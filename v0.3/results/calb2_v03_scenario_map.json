@@ -1,0 +1,4740 @@
+[
+  {
+    "case_id": "L1-001",
+    "title": "Jessica Fuller v. Hyde School",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "8f7d4819b15a6207eac3d23c80ba96ffd81028a850929d9a0beab67b2a9f708f",
+    "input_hash": "8737e9055268af5e216ead9f163701e1e092fda915d87b10b6e3ef5722cf06c8",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2091/USCOURTS-med-2_25-cv-00354-0.pdf"
+  },
+  {
+    "case_id": "L1-002",
+    "title": "Smith v. Verra Mobility Corp.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "83b9beec09af31706702bff316f2d8c10d78497c9ae3c7b94cdc9129c8dd1b6c",
+    "input_hash": "6702abe3fa4b601f59c0a104e610fcf28f39d0b2034038c5757991fa7581dfd0",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2107/Smith_v._Verra_USA_1_May_2025.pdf"
+  },
+  {
+    "case_id": "L1-003",
+    "title": "Sai Malena Jimenez-Fogarty v. Thomas Fogarty et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "508e1a8f374a4ef91439fd1219dc05f12a54d33c30801df108f8c4797f59f0ee",
+    "input_hash": "bf8019237675e1e69a6bedb1a2fa6268386a29ce038dc2de1b271c927f1a84c5",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2045/Fogarty_v._Fogarty_USA_29_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-004",
+    "title": "Chaney v. Transdev Services Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "45754ccd203e4c6cf499f26627c59f74f662d4f25db57e90a04a6ad413bdd929",
+    "input_hash": "3d91c455f5605d9cb5c5d5964f26d5a60c1ac67f48c5febc20aa13a3a17b8df0",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2041/Chaney_v._Transdev_Services_USA_28_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-005",
+    "title": "Anthony C. Hill v. Workday, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "legal_l1_distance": 100,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "d3dd024d2ab2a8cf113ad612d9a761502b22aa172260e4c711aed8c0d62acf26",
+    "input_hash": "53b67891097f183d40037dcd5f9b3acedc0f436b21d6898d0aa93ad291630ed7",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2039/Hill_v._Workday_USA_28_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-006",
+    "title": "United States v. Farris",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "cdcb760cc238ddce177dd87f6a269420d1eb4804159f04664b17b5e9881ae902",
+    "input_hash": "d0aed2410b98ce542b53af23ef0fe2b710a1bd5351f22aaff808108844a7b458",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1903/USA_v._Farris_USA_3_April_2026.pdf"
+  },
+  {
+    "case_id": "L1-007",
+    "title": "Heimkes v. Fairhope Motorcoach Resort Condominium Owners Association, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "9cd35f0281f9d744b8481b2b517781286e18460e2668d1902025b9af516a4822",
+    "input_hash": "ef24896945f1f79c93144c8c007567b3ce41f62c350deaaba81558402f37c9bc",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1890/Heimkes_v._Fairhope_USA_31_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-008",
+    "title": "Rushing v. Turner",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "809b703b5b7593735a519a25a32af6fd9fb88c8ad4252d6cafbbb62ee3ea35a9",
+    "input_hash": "fd62531043b093860fc92714360c2217e2134396ec10d9c181b365841831f9ce",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/2042/Rushing_v._Turner_USA_27_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-009",
+    "title": "State National Insurance Company, Inc. v. Damon Treadwell, et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "5e6104e999098d7c7b25cde52fe80c83ecb229a913e59671fb82e06d740b8e10",
+    "input_hash": "199ffdd4891806934b093dc9a392752027178dcfe54398097aacfb6269c649ab",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1916/State_National_v._Dimon_Treadwell_USA_27_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-010",
+    "title": "State v. Coleman",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 42,
+      "deployer": 33,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 76,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "59b98006e719c0f733f4c83686e42a565bf512744f2094f402d3ed09f26a7261",
+    "input_hash": "320f17fa34f4d0db75264012add124242a486c3691b1eaca2faccaf48c0c89b5",
+    "output_hash": "b7a72b1ee83bf4885c06d6fdaef538349419c1d3cba40fdf47915ee31a70bfeb",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1774/2026-Ohio-965.pdf"
+  },
+  {
+    "case_id": "L1-011",
+    "title": "Daniel Gentry v. Calvin Thompson et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 80
+    },
+    "legal_l1_distance": 40,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "9224f38f2813c24e13873c8650341936d5587d8ddb7b010de911e74b79de7d35",
+    "input_hash": "41216ad93a50196a760d050b7ee49c29162d717fdd313e6752f6a9a91d85e22f",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1771/Gentry_v._Thompson_USA_20_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-012",
+    "title": "Riddle Aggregates v. IRS",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "41929af7d6d5fcb6f32876e830070cface7fe49fde59131302a92822f09f407e",
+    "input_hash": "a9d7589093455d55a4f364045c6d9a402687359a034be3f4cd7b33d00f01762b",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1972/Riddle_Aggregates.pdf"
+  },
+  {
+    "case_id": "L1-013",
+    "title": "Cartagena v. Dixon",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "75d43937f922c14a75e64ea0e9a1e0b2e33b05fd8ce4764c5beb8f7ef3fd61d1",
+    "input_hash": "5bd42a3bc588aabb4deb156e763c3b703060b78ad90d9c00728bf0f366781a01",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1665/Cartagena_v._Dixon_USA_10_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-014",
+    "title": "Kattom v. Bondi",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "cff55fa734ecce9e2d8f0e437939d2cf3e3bb419bb38cf2ad278450c4afd498f",
+    "input_hash": "d9c826baf3a0038e16a85f1eb195c81ce5694db153f6b1c0ef6eaef03d53bb0c",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1622/Kattom_v._Bondi_USA_March_2026.pdf"
+  },
+  {
+    "case_id": "L1-015",
+    "title": "Matter of Zareh",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "07e1a149e458ad937b621e221f281fb7ec20b715adbb2d1533017e3fa7bac051",
+    "input_hash": "05499d9d766dcf730d0a3b36bfcd0c8f30fc676152c6f7c556c56aef8efa73ea",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1816/Matter_of_Zareh.pdf"
+  },
+  {
+    "case_id": "L1-016",
+    "title": "Amarsingh v. Frontier Airlines",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "8bb2576c94b86311b5f09b74645e29702470f50c9d889c628233d9f8374ec469",
+    "input_hash": "9f8aa74e3d6b6d181d623929253f8e839730087342d5fa0d2ac0abe2f7d06f91",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1484/Amarsingh_v._Frontier_Airlines.pdf"
+  },
+  {
+    "case_id": "L1-017",
+    "title": "Arkansas DHS v. April Ward",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "92000f8fba08c6d139d01951ee9a68009c8890f49299e6a11cd51776b8c5d971",
+    "input_hash": "10430d3c485a7d59da922b6cacca128f3a54f58af69e86ab9c74539facc7e37a",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1458/Arkansas_DHS_v._April_Ward_USA_5_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-018",
+    "title": "Flycatcher v. Affable Avenue",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "32dfbf7b1a3a293fe09cd07e751a617ce10a7810d8858d8959ae0e0f8ca55154",
+    "input_hash": "b8ae13e21a42d8b15a81e51e80467a61de8aea34a6f36cd5ba2db26052d58449",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1460/Flycatcher_v._Affable_Avenue_USA_5_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-019",
+    "title": "Lexos Media IP, LLC v. Overstock.com, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "4c821a979070766138c65148299e7f68936be89859b114ac642998309b0c5e45",
+    "input_hash": "60073121c7f1e061de213b2a236885c838efc719dd48ca71395241dbdc00bc1d",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1438/Lexos_v._Overstock_USA_2_February_2026.pdf"
+  },
+  {
+    "case_id": "L1-020",
+    "title": "Lifetime Well LLC v. IBSpot.com Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "b528a9bff54066fcd3a07c015070c1798f24f1afccaf3231b7de69d37bd1dc3c",
+    "input_hash": "0b7e29fe3e728492608d8782ed5dad346276c01a28236def7813f5807c80ad0c",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1398/Lifetime_v._IBSpot_USA_26_January_2026.pdf"
+  },
+  {
+    "case_id": "L1-021",
+    "title": "Gharavi v. Google LLC",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "03983eedbe13d7e691b9d6599742e880e013df34d9c02c1d5e8a8425ebdf0e21",
+    "input_hash": "22558ba3c1a39f59754d894b4facabb5d272d8ee100092f56ee342c7000ad7b3",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1394/Gharavi_v_Google_LLC.pdf"
+  },
+  {
+    "case_id": "L1-022",
+    "title": "Billups v. Louisville Municipal School District",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 80
+    },
+    "legal_l1_distance": 40,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "e25f8d0f4c34c91568bb80a5194582ff8d58d57d95b7d30d2b8be44864af921e",
+    "input_hash": "0f1381b13356d24b1f109b95ab36bca44e16ecd4de8276cbe15c1b60d0f8abd8",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1223/Billups_v._Louisville_USA_19_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-023",
+    "title": "Dodge v. FirstService Residential Arizona LLC",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "9f0dbe108f9da334fe97789cac35c15f39640fc81126fd68ff470ef7d80e600d",
+    "input_hash": "e30bd9875294c2d253bdc1f4d251ac28b1bdd7a908053d486e401a50357e5b36",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1195/Dodge_v._FirstService_USA_17_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-024",
+    "title": "Jordan v. Chicago Housing Authority",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "350cdc77c78a71dd4b3ddf0d796232316ba4db268164401d32484dcc20e4def3",
+    "input_hash": "fd5b6e3dc8d3faf444f0e96c853ce4334f30e465b74ae419eda624668e7d3ab0",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1159/Jordan_v._CHA_USA_5_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-025",
+    "title": "Hill v. Oklahoma County Criminal Justice Authority",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "99110a3560614d48d50573171c07a5ba429574a5325e16c1082f116f870e008b",
+    "input_hash": "807316a89560b8cb308656f2f5605c3709f512198ab888975de5d4a9a97fa26f",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1131/Hill_v._Oklahoma_County_Criminal_Justice_USA_4_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-026",
+    "title": "Re Walker",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "cec9001f7408ce3192c0f9949474a65ab8537f54a316568606fc583e4f291cd8",
+    "input_hash": "cac47507b95d5f82f87ca9d3fc26b23f1ae7d714ce1f79129a94fd671a178c81",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1074/Re_Walker_Australia_24_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-027",
+    "title": "Buchanan v. Vuori, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3ecc448b923372e97aa27a8c7f000d4e309c5215dfbc8c9167e96a21cf28e48a",
+    "input_hash": "6661564005a5365299a157836ea87d4a2810cf9960a74ad9c2198610ad9c59f4",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1075/Buchanan_v._Vuori_USA_20_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-028",
+    "title": "Yuehong v. The Minister of Citizenship & Immigration",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "55d7af79e39a445a916b933ba4e7628cfe98d88e94c584a54a1d5e39b9a1f00b",
+    "input_hash": "48b6a114007f659fb70e949dc3a99cd9db6d3dbe013d43e4eb35b8db032dd034",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1076/Yuehong_v._Minister_of_Citizenship__Immigration_Canada_19_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-029",
+    "title": "ECLI:NL:RBNNE:2025:4814",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "46e2ec306f3c55c621d0f8819553230776a73d480f5fb8e21e9dfd3d6aa46c59",
+    "input_hash": "33f754bf31c38ee0e3035ec309d71652bfa344d9fc3f5ff3b79049078de4c873",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1135/ECLI_NL_RBNNE_2025_4814_Rechtbank_Noord-Nederland_C_18_244013___HA_ZA_25-101.pdf"
+  },
+  {
+    "case_id": "L1-031",
+    "title": "United States v. Thomas Czartorski, et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "2e62ec89329bed68ba251a95d1f3daba5f8856fc2c82fa79e121054a111555e0",
+    "input_hash": "c89d23586216a9b0230a7054194b425feb2ee6ca1b790fdc50b1aefa9c337ced",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1024/USA_v_Czartorski_USA_10_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-032",
+    "title": "Isaacs v. Novartis Pharmaceuticals Corporation",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3498746005ae3ddca1744a1731db76032966369e69e73f9f27f19c2078df4c6a",
+    "input_hash": "f360f127e48570c3086b9368dba5101768e94ff104aa6e9115ec3e6d1e4b09ce",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1013/Isaacs_v._Novartis_USA_3_November_2025.pdf"
+  },
+  {
+    "case_id": "L1-034",
+    "title": "Joy Wilson v. KIPP Texas, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "d523cb511d90e8eb1143de0ea12a4a914f135122ad93fbb46621c4d7baf5b319",
+    "input_hash": "36870ef2eb0a49809e2a5541fc6e02d4194672d2e739490797832a6cd0d9bbdc",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/958/Wilson_v._Kipp_Texas_USA_29_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-035",
+    "title": "Mezu v. Mezu",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "a44106883b57a1caf53af2b88410f85f39e2311c8029a858256d9e8945bddfc0",
+    "input_hash": "85beb11b8486058855abb6486a3f8d8a7d9e58f8c1282085d082612186d59377",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/959/Mezu_v._Mezu_USA_29_October_2025.PDF"
+  },
+  {
+    "case_id": "L1-036",
+    "title": "In re: Sanctions Order of Kenney",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "104aebc8caf64b983ec8d233ed34a0a100a85ee2617b34df0725b4df6ed9854b",
+    "input_hash": "0cd7220958eda0fcfe889473f12078356c987e12cecc064d86cbc3a1cf202cdc",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/899/In_re_Sanctions_Order_of_Kenney_USA_23_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-037",
+    "title": "Mattox v. Product Innovation Research",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "2fc56e6a2d313aec8038996e5539d0d30f3691699f4983a6b2e61ead11b40cac",
+    "input_hash": "b26d711523cefa0fae5750a638fbe151d6cfcb502664133039d26d756347a5f3",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/904/Mattox_v._Product_Innovations_Research_USA_22_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-038",
+    "title": "Safe Choice, LLC v. City of Cleveland",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "2f8446f02852042cb58df400011ce83b42bdcb06a039897ed86d1e653ab99b86",
+    "input_hash": "c0c2f1d4497950ab5090edac12824e58643208c3a401aa42ecf17efa2594018d",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/961/Safe_Choice_v._City_of_Cleveland_USA_30_October_2025.pdf"
+  },
+  {
+    "case_id": "L1-039",
+    "title": "Ndaryiyumvire v Birmingham City University",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "7a6a788cf99bbee6d9245a43c269432f369da53c1124f79b3574a3910ef4d131",
+    "input_hash": "150ad7ed3cec0a56acc444fca4bb134aaab8285d5fc1e67a6f41543db112b124",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1672/Ndaryiyumvire-v-Birmingham-City-University_UK_14_October_2026.pdf"
+  },
+  {
+    "case_id": "L1-040",
+    "title": "United States v. McGee",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "c4e5cf33d6ac6efc0bd93cc97474c42e759c5b14fd78321ea4465815930502fe",
+    "input_hash": "e61fd80170b9144f7e47e708f2a1664617dec38ddf52426b3fe38c1fa288d65d",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/862/USA_v._McGee_10_OCtober_2025.pdf"
+  },
+  {
+    "case_id": "L1-041",
+    "title": "AK v Secretary of State for the Home Department",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "bb096652e5b3061138a70687574663bff6191937c602f1149d5ccb5409ebd778",
+    "input_hash": "0ca7c715b119b28f49e83203bc55c1da69c1a78ff859e95c0ffcec1950a78311",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/901/UI2025002918.pdf"
+  },
+  {
+    "case_id": "L1-042",
+    "title": "Smith v. Athena Construction Group",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "dac632643f66ab30cabead6047682ec0b59a4284b64c9f456b9f4a93b71ef07e",
+    "input_hash": "141f32a4e7992899037e29d154890bcb856ef7ea4f927ed5e316288ebf4e0c70",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/850/SMITH_v_ATHENA_CONSTRUCTION_GROUP_INC__dcdce-18-02080__0201.0.pdf"
+  },
+  {
+    "case_id": "L1-043",
+    "title": "Khoury v. Intermountain Health Care",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "5a8d802535ee1e1294b9e776326201586ee0bb59779c6b0d6321e303fab6fac6",
+    "input_hash": "393d9555b772923d1de7adc5be75033c0e7aa7cf0f40dd6520cbf8149a23f89f",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/843/Khoury_et_al_v_Intermountain_Health_Care_Inc__utdce-20-00372__0307.0.pdf"
+  },
+  {
+    "case_id": "L1-044",
+    "title": "ANPV & SAPV v Secretary of State for the Home Department",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "c9ad55d4f9c7e9309b3dc16bd55bf0247f36439e7d2426128f788f11b18a6a13",
+    "input_hash": "8d79eb505934ff0111637a8472bde623249e0dc3b79fa50c8643e14e69ae04ea",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/884/UI-2025-003373___UI-2025-003374.pdf"
+  },
+  {
+    "case_id": "L1-045",
+    "title": "Lofton v. Grove Farms",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "91e1247054c1019d3e03b3b0ec5891a21d05eea1f1fc7e4cfda3fb837edf8d3d",
+    "input_hash": "6962676bbf55d663c357a705f3025a7590007c85b689532917a8735036c78933",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1874/Lofton_v._Grove_Farms_USA_26_September_2025.pdf"
+  },
+  {
+    "case_id": "L1-046",
+    "title": "N.Z. et al. v. Fenix International Ltd. et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 77,
+      "data_provider": 0,
+      "human_operator": 23
+    },
+    "legal_l1_distance": 154,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "5508bdde9b17b03e1b6fe3a9faf7e382b70a0afcdea578e3d730a33beda9fea3",
+    "input_hash": "33da11faf0edea8b9c47f508853b6af9724f8c2927cc52d5086b9fddbb4090c6",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1183/NZ_et_al_v._Fenix_International_USA_12_December_2025.pdf"
+  },
+  {
+    "case_id": "L1-047",
+    "title": "Anthony C. Hill v. Workday, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "5518ff2082edee52ea9f0dedb16efba8fb794fcb64ae49a462fc6a66096cdf42",
+    "input_hash": "7589e894240ed9df638ea41df5007db1f59abd0ecef726ed27943ff1e3a3a0f3",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/976/Hill_v._Workday_USA_5_September_2025.pdf"
+  },
+  {
+    "case_id": "L1-048",
+    "title": "Lee v. R&R Home Care, Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "1984ef5321ef14c00844f2640f7f3bd49620cf3bcd59e6f9bdef0507c6c052ea",
+    "input_hash": "44b2443531af90518ea139435fd35c95037eac000a0152dcef64662a2d391558",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/780/Lee_v_RAndR_Home_Care_Inc.pdf"
+  },
+  {
+    "case_id": "L1-049",
+    "title": "In re Richburg",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "873554b8859148fca93b0771b08746b193ea83dbd560fda94181089aba41c0b8",
+    "input_hash": "05ccc8d5ab910cce01937017540cda7908a1dfacd28e8891c1b05e66b9b76dfa",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/731/In_re_Richburg_USA_29_August_2025.PDF"
+  },
+  {
+    "case_id": "L1-050",
+    "title": "JNE24 v Minister for Immigration and Citizenship",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "9dc328adc81789eea73f943eb7e3ed3a57f6c2da4c8768bbee7f35f256e41570",
+    "input_hash": "8af77960d7cdd1a0bc6d0a1c94645ad6ee5f8d30d79f8d5c4a767b2495ed7903",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/716/JNE24_v_Minister_for_Immigration_and_Citizenship.pdf"
+  },
+  {
+    "case_id": "L1-051",
+    "title": "MS (Bangladesh)",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3c5f4cafd8e88396d404fa18e507b945701f67d36b9c52ed1de4848012c8203a",
+    "input_hash": "f03a3571ce168f9f510021a914f9159de20a7a49b827312a8809b5a644b14bec",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/806/305.pdf"
+  },
+  {
+    "case_id": "L1-052",
+    "title": "Marcus Groesser and Ira Hess v. Robert Phelps Herman",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "d0e68962ab0d76f7abe9ea17465b75018ff26816b50e308414241ec0f09c80ae",
+    "input_hash": "f8f10e49cda6d6b96e09955e9174a513a5365c4f9e56fc4ba9da27806df1612a",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/658/Gruesser-Judgment.pdf"
+  },
+  {
+    "case_id": "L1-053",
+    "title": "Coronavirus Reporter Corp. v. Apple Inc.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3dc754815265c7cbcf2b88b64a7ce3ee6e7874d4d164b2f298af0bf251eab207",
+    "input_hash": "455f6c6502b5c51cf879e3693a2f6f66a8af872716504de0b12c1ac20f55c2fb",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/637/Coronavirus_Reporter_v._Apple_USA_30_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-054",
+    "title": "Idehen v. Stoute-Phillip",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "bb193bf6f97a05035aa753966d22f87de7392aa5cb6c0a43d5b76bec76875ae4",
+    "input_hash": "76458f86ea0b275b9b23c82fe8bf1420607ff68fbe629810d82c4a8c91dc8e6b",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/645/Idehen_v_Stoute-Phillip_USA_29_July_2025.PDF"
+  },
+  {
+    "case_id": "L1-055",
+    "title": "Johnson v. Dunn",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "fc0a7c4d09a86341bd74e7c8acf12493ace1732a56c32c846bc9e4251c5ec678",
+    "input_hash": "0cca92a97779e37b1efdac11bd493c68f2e2b4ed193fd880f17ac4b72f6c8992",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/608/Butler-Snow-Order.pdf"
+  },
+  {
+    "case_id": "L1-056",
+    "title": "ByoPlanet International v. Johansson and Gilstrap",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 42,
+      "deployer": 33,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 76,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "f0306f73a9a6b090023064dddd77d4c7416cae7283861668d5428950c15de1a3",
+    "input_hash": "2e57d58a33d78bef71b9f5a4c188b51b9cde4dab9bc5d28b7a3d6dabc4d85dff",
+    "output_hash": "b7a72b1ee83bf4885c06d6fdaef538349419c1d3cba40fdf47915ee31a70bfeb",
+    "primary_source_url": "https://caselaw.findlaw.com/court/us-dis-crt-sd-flo/117513089.html"
+  },
+  {
+    "case_id": "L1-057",
+    "title": "Gurpreet Kaur v. Captain Joel Desso",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "ed9a888d9c49411b2974b194e799175dd7de86fa6746050d88f68ed0d64e2174",
+    "input_hash": "43fda9e847185358caa91e4d37e3461c73499248b31082ffee2a4a5f7d027df7",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/581/Kaur_v._Desso_NDNY_9_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-058",
+    "title": "Coomer v. Lindell",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "a07d39a3d378f24a1bcb3cf5951e0722b8595c491a96ef52b1211febb44fa68d",
+    "input_hash": "3a91958320c6496828b0136271a7bcac89dcb68798f3772a1a7968207552ba13",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/566/Coomer_v._Lindell_USA_7_July_2025.pdf"
+  },
+  {
+    "case_id": "L1-059",
+    "title": "Murray v. State of Victoria",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "ece36847a1663d8fdc9507d0fd798f0074b6544c8c85c484a381fc5e14e32073",
+    "input_hash": "c32c0f6bfa69d1c9e7ef9f6f9e840902b52278537a8310b8ef55ee4b3ee5e086",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/533/Murray_v._Victoria_2_July_2025_Australia.docx"
+  },
+  {
+    "case_id": "L1-060",
+    "title": "Northbound Processing v. South African Diamond Regulator",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "b7828ec15afcf30241a8813398a0786b24ccf0ea0896b76c70b0d76fea37dab3",
+    "input_hash": "58d4a2f8c1d41aaf9efabe668815350a392525f07e126e15d88768f17d012061",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/531/Northbound_Processing_v._SA_Diamond_Regulator_South_Africa_30_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-061",
+    "title": "Dastou v. Holmes",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "59e43ee4333b8a2cf58cd5e69151879630622a6cdc256dcfe608bfb5d53a88cf",
+    "input_hash": "134090c204e9e238e96690e9eb88cd4b77ccd55fd0bf7342fdb54da911874b51",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/585/Dastou_v._Holmes.pdf"
+  },
+  {
+    "case_id": "L1-062",
+    "title": "Hussein v. Canada",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "7302024c825ce3f921383e66aa6027c23da15dbc0e1e08f99e34b8e893bbe456",
+    "input_hash": "24200634aa0d9d8954ae42c55b67401ad99a8a8f1012aa209b991391ba8a3d93",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/573/Hussein_v._Canada_Canada_24_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-063",
+    "title": "Mintvest Capital, LTD v. NYDIG Trust Company",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "0039104eeebb83dbeae5b844f521dd57754768d361c77816333cccbca06a512f",
+    "input_hash": "f536f5d47449a571698f3a280204b389be7a3a7b38a5f541cd47061c4f90ccd8",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/561/Mintvest_Capital_LTD_v._NYDIG_Trust_Company_et_al_USA_23_June_2025.pdf"
+  },
+  {
+    "case_id": "L1-065",
+    "title": "Ko v. Li",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3655a192bfb11c3233657e250b12ba234c5002b305664c8d0f5aeec2c360d6fa",
+    "input_hash": "6156139694ff8014b2c117e31c5863f8269cf3a9b424231af975c560d977e494",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/451/Ko_v._Li_Ontario_SC_Canada_May_28_2025.pdf"
+  },
+  {
+    "case_id": "L1-066",
+    "title": "Mahala Association v. Clalit Health Services et al.",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "76481b0cf2cb5d04abdb6ab4af39641a4d620bf5b082c15344c43ebb70eccbd3",
+    "input_hash": "d69e68a82f2b29b25e2990be914c11943e8fe798520a467d3d3920b2dffefeb3",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/442/Mahala_Association_v._Clalit_Health_Services_et_al._Israel_May_22_2025.pdf"
+  },
+  {
+    "case_id": "L1-067",
+    "title": "USA v. Burke",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "37051611e58a487676bbb3179f8322caea4faa8b4e1f103e472da47237298c23",
+    "input_hash": "88e0e3a1f96c2ec9aa0a5c93058a5f27b31194b68b5c58ee3ca4db95f277685a",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/438/USA_v._Burke_M.D._Florida_USA_May_15_2025.pdf"
+  },
+  {
+    "case_id": "L1-068",
+    "title": "Santana Andrade v. TST",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "4b53eefa2d28769f69f56a7a1330bbf5590e8b4f08399f30d44c476c092897b7",
+    "input_hash": "cca24ce75a2b138a4f5123009295264d9f44c0498c4521b9145c0c99b821e8e1",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/334/Santana_Andrade_v._TST_Brazil_May_12_2025.pdf"
+  },
+  {
+    "case_id": "L1-069",
+    "title": "Reclamação (RCL) 78.890 / BA",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "a1b6b3efaffa738d959b7c8516e9b9a60c9bd87fa99fb3e2bed636f90daa68cb",
+    "input_hash": "255ac15c54bc58e84363d1ec4702d3bfd1f7fff94607333ef80602b1c53ee0d6",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/758/8E03AC1BCB6B0B_downloadPeca2.pdf"
+  },
+  {
+    "case_id": "L1-070",
+    "title": "Gilmai v Tol & Ors",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "54cf54e02b02e7da417874ee71fc4c2d5e2f00cdfa815a6486991b4380b8165e",
+    "input_hash": "5b990e410c4c5d3768e7974b29095da7229182735e3c8be3d6a20f356e168c47",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/1018/OS_No_279_of_2024_-_Gilmai_v_Tol__Ors_250509_145925_1.pdf"
+  },
+  {
+    "case_id": "L1-071",
+    "title": "Crystal Truong v. Flint Hills Resources",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "4ca7aa2ee8e482c86bd8ba223e83d45700ec06869ba086b8c63537cb7290d986",
+    "input_hash": "8d1c7c2a05c54534fae0ac59b20e8cddf8b63924a5ecf2d23f5c5794e3bc9a2c",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/631/Truong_v._Flint_Hills_Resources_USA_14_April_2025.Pdf"
+  },
+  {
+    "case_id": "L1-072",
+    "title": "Mazurek et al. v. Thomazoni",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "f3b5ba671e25c0e26fb6756defef64a83e5e7c86e667c0143669da58accb7ae9",
+    "input_hash": "262ce7a5ebea7a7fa6263a6eb29687593272fdc7e0383960fd081934357bdb5c",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/479/Mazurek_v._Thomazoni_Brazil_2_April_2025.pdf"
+  },
+  {
+    "case_id": "L1-073",
+    "title": "D'Angelo v. Vaught",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "dae76bf02962f77b793d81343266010a48f4c136e0c8c0d8de081fca8a5a4425",
+    "input_hash": "4e58ce371da2e112162924e6d40f0211b2394ec0c9f9277bb3dc4a5fb35067be",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/609/Dangelo_v._Vaught_USA_2_April_2025.pdf"
+  },
+  {
+    "case_id": "L1-074",
+    "title": "QWYN and Commissioner of Taxation",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3e331e580db9306490cf7f1b8ecf677399bf4aa274d00dee132fe2ef5aab66bf",
+    "input_hash": "e8819b808e6274505892db06c33d3a663e26a205ebce8433bcf9a0a4a0ef1de2",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/542/QWYN_and_Commissioner_of_Taxation_Australia_5_February_2025.pdf"
+  },
+  {
+    "case_id": "L1-075",
+    "title": "Valu v Minister for Immigration and Multicultural Affairs (No 2)",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "2947db794328d9d6496a430be864e9fe090cc8a4c2ba69e72e07b79070179ae6",
+    "input_hash": "0a9d34cc0f9117116745a9b8b4c3bd5c80bff0322e28edf8ee5baf74cac118e3",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/430/Valu_v._Minister_for_Immigration_and_Multicultural_Affairs_Australia_31_January_2025.pdf"
+  },
+  {
+    "case_id": "L1-076",
+    "title": "Gonzalez v. Texas Taxpayers and Research Association",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "3848bcf5becba44eb9570c3fb5dc98a1bda50449285789129f05a109bb3631eb",
+    "input_hash": "63c5d630f51e1b0f61d36b4f78bda57a1be40c83533124a8122266f0f971b87e",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/576/Gonzalez_v._Texas_Taxpayers_and_Research_Association_USA_29_January_2025.pdf"
+  },
+  {
+    "case_id": "L1-077",
+    "title": "USA v. Michel",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "97c54c0576042808d33912175c6ac8bd4c1dd111269be13145d9b588a742960a",
+    "input_hash": "d12feb3597a586e9988112349f504cac1537e31dc50c7ee40330372ae1b23810",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/475/USA_v._Michel_DDC_USA_30_August_2024.pdf"
+  },
+  {
+    "case_id": "L1-078",
+    "title": "In re Dayal",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "8630045ace1c08dd131f3f47a75557359501f90757086176e2630ddcad925a40",
+    "input_hash": "315f081837ca7c0b01902e45336b6913d234b4c25f309fae9b51df033be84907",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/361/In_Re_Dayal_Australia_August_27_2024.pdf"
+  },
+  {
+    "case_id": "L1-079",
+    "title": "Zhang v. Chen",
+    "domain": "legal_services",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1a: Hallucination originates in the model; minor human contribution for non-validation",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 20
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "fc31d62686d105ee68c35ebf5ee9630da4ec0042cc22646766ce8ae7ca5aa730",
+    "input_hash": "0a9b0e759027708af0c45201a3acb6ba21edfbd2f2b8405fc32b9bd4b639b076",
+    "output_hash": "c285f60e9d35380d47b04afcb7e0abf862bb4e770e8853106c74b97b95f2bd3f",
+    "primary_source_url": "https://www.damiencharlotin.com/documents/772/Zhang_v._Chen.pdf"
+  },
+  {
+    "case_id": "L2-002",
+    "title": "EEOC v. iTutorGroup, Inc.",
+    "domain": "hr_employment",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C2a: Deployer trained or configured the discriminatory system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "1039e691324b8a120ca74d267d33c929304309f3a6bba1564a22a94264c39d8e",
+    "input_hash": "dc822cb0fb7aff1774a4a5007a0c87dbd9428ad37e312f8df139efdf9cce372a",
+    "output_hash": "f9e3b8742e3d0d36c0c0b8cfcd71e25f83216ce14db7566670409472582bfc1d",
+    "primary_source_url": "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/160671.pdf"
+  },
+  {
+    "case_id": "L2-003",
+    "title": "Louis v. SafeRent Solutions, LLC",
+    "domain": "consumer_retail",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C2b: Bias originates in training; deployer shares causal role for failing to validate fairness",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 70,
+      "deployer": 30,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 20,
+    "predicted_primary_legal": "ai_provider",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Design Defect",
+    "decision_id": "77d9ba057c806b3fc33fb1fb04d2a36fb14072f3b336115a6791874865197a7c",
+    "input_hash": "7d45a65d1c5098339b72b3f71887135da5a50630f1f3ba9d522450a1cd458917",
+    "output_hash": "ff729ab4c8e0ee388daf165d811056a7678c35b3b40b7bd7a64a5e2f2cc9e74b",
+    "primary_source_url": "https://www.justice.gov/crt/media/1310736/dl"
+  },
+  {
+    "case_id": "L2-005",
+    "title": "State v. Loomis",
+    "domain": "criminal_justice",
+    "failure_category": "algorithmic_government_action",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C8: Government agency as deployer is the proximate causal actor; vendor model contributes",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 20,
+      "deployer": 55,
+      "data_provider": 0,
+      "human_operator": 25
+    },
+    "causal_ground_truth": {
+      "ai_provider": 30,
+      "deployer": 70,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 50,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "2608b875b5f1e542cad60ad87465557e7dc3dddd26648ec202637a54d02d6cff",
+    "input_hash": "820d16e43f0c5973a36e85180871b3e11f281f497055e5ce2dd0188807d50ebc",
+    "output_hash": "b40dbf954b3f320c334f7ca59cccec861b1c262e0d19e0384275c0fd78f7b836",
+    "primary_source_url": "https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&seqNo=171690"
+  },
+  {
+    "case_id": "L2-008",
+    "title": "Garante per la protezione dei dati personali v. Replika (Luka Inc.)",
+    "domain": "consumer_retail",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "22c83449644dde492290743702391073beec1a52ad52efae2af18cb970c5e40b",
+    "input_hash": "40dc459e70dd7f156a6d52e0480c90a8f7695e30f74a539970969808f2cc0520",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852214"
+  },
+  {
+    "case_id": "L2-009",
+    "title": "Garante v. OpenAI (provisional limitation order)",
+    "domain": "media",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "0d540e4c3f62ec5786317ab76c1f086f4212c429f010393a6ea7e69c148b718c",
+    "input_hash": "2a511e971f6b928e9291093e033aba7fa2ccc83c08a250eb0b263f8db864bcaf",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9870832"
+  },
+  {
+    "case_id": "L2-016",
+    "title": "ICO v Clearview AI Inc",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "063c204b7bfc96e46d89d11bf585b5c29c4e2ae7ac175aadce5a31f31542e765",
+    "input_hash": "146042ea5ee4800ab31928d8f3281fd207b5215e1ba1269cc38ed38decb34035",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://assets.publishing.service.gov.uk/media/67054a32103ca7c405572911/The_Information_Commissioner_s_Office_v_Clearview_AI_Inc__Privacy_International_intervening___2025__UKUT_319__AAC_.pdf"
+  },
+  {
+    "case_id": "L2-017",
+    "title": "CNIL v. Clearview AI (France)",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "e0c6bb23d76a3e66355f77de76e42d5f3a4d1eae39cdea05daa42c540d49a5e5",
+    "input_hash": "b9d4005761159fefebf977ba43909c411b3442bbb177e66d472de5cfd63ce3b3",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://www.legifrance.gouv.fr/cnil/id/CNILTEXT000046444859"
+  },
+  {
+    "case_id": "L2-018",
+    "title": "ICO v. Serco Leisure",
+    "domain": "hr_employment",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "cb35cd11f8a6ab57ff7ef35df47970c0a7055ff51e2afbb01ff9a6b2bbeb6509",
+    "input_hash": "f0f53cac4b52e432979659dac17b9b76c488a76c3c5eb148c78624dae234598b",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://ico.org.uk/media2/woalogoc/20240219-serco-leisure-operating-limited-en.pdf"
+  },
+  {
+    "case_id": "L3-002",
+    "title": "NTSB HWY18FH011 — Walter Huang / Tesla Model X",
+    "domain": "automotive",
+    "failure_category": "autonomy_handover",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C4a: Integrated system; deployer designed handover, human failed to react",
+    "predicted_primary_causal": "human_operator",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 60,
+      "data_provider": 0,
+      "human_operator": 40
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 50,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Negligent Deployment / Constructive Knowledge",
+    "decision_id": "7adccd7f72eb44a26eb579351f96ca94ac00f082ed3e4404eaa054383e53addc",
+    "input_hash": "ce0e449bdf02dbcc972d3e4cc0be2f0cc1d6c1eea6fc95a0ef043a63044ba0de",
+    "output_hash": "b490669e7748e604958dcb3541b6cfda6c24fc77577103cafb5c69c673446269",
+    "primary_source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR2001.pdf"
+  },
+  {
+    "case_id": "L3-003",
+    "title": "NTSB HWY18MH010 — Elaine Herzberg / Uber ATG",
+    "domain": "automotive",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C3a: Vertically integrated perception system; deployer is producer",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 55,
+      "deployer": 25,
+      "data_provider": 15,
+      "human_operator": 5
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 150,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 50
+    },
+    "legal_l1_distance": 100,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "3a69868ce11a36376b831a5589f4cdc9187017ec885b7c01ccf590d49d98218d",
+    "input_hash": "d6397b65ff31ad7ddf3d47b33738546626a249ca867bfe800b82f02f04b1867f",
+    "output_hash": "6996d9416099968416193fe1248f2345c4f15c5cc53a7632610a7fdd14de565f",
+    "primary_source_url": "https://www.ntsb.gov/investigations/accidentreports/reports/har1903.pdf"
+  },
+  {
+    "case_id": "L3-005",
+    "title": "DOJ / NHTSA v. Cruise LLC",
+    "domain": "automotive",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C3a: Vertically integrated perception system; deployer is producer",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 55,
+      "deployer": 25,
+      "data_provider": 15,
+      "human_operator": 5
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 150,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "66a03e9cea4771dff4604966a2ab127363b80f838d4ac60efb9c7e2e0c2615bc",
+    "input_hash": "ec7c40fb85bd4cacbab9b98d060e695ddf62a1822ec2e72dc7ac4fe7ff6ed83b",
+    "output_hash": "6996d9416099968416193fe1248f2345c4f15c5cc53a7632610a7fdd14de565f",
+    "primary_source_url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/2024-09/cruise-consent-order-2024-web.pdf"
+  },
+  {
+    "case_id": "L3-006",
+    "title": "NHTSA EA22-002 Tesla Autopilot recall",
+    "domain": "automotive",
+    "failure_category": "autonomy_handover",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C4a: Integrated system; deployer designed handover, human failed to react",
+    "predicted_primary_causal": "human_operator",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 60,
+      "data_provider": 0,
+      "human_operator": 40
+    },
+    "causal_l1_distance": 80,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 33,
+      "deployer": 34,
+      "data_provider": 0,
+      "human_operator": 33
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 134,
+    "applied_doctrine": "Equitable Apportionment",
+    "decision_id": "57aed2e0fb88b6be6eeab3b9be7396c9a22c357b77567cfb5c2883676c45bb87",
+    "input_hash": "758957fa81bf07c72e9fdc482471e62c4bbe4880d9516de726eaa9b2d92b0aa1",
+    "output_hash": "a9651e3e5c5e8c5180ebd2e1a0cbf298dc7fb23f79cea4ea2a25e01ab3dedac6",
+    "primary_source_url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V838-8276.PDF"
+  },
+  {
+    "case_id": "L3-007",
+    "title": "California PUC suspension of Cruise driverless permits",
+    "domain": "automotive",
+    "failure_category": "specification_oversight",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "human_operator",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 0,
+      "human_operator": 70
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 160,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 33,
+      "deployer": 34,
+      "data_provider": 0,
+      "human_operator": 33
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 132,
+    "applied_doctrine": "Equitable Apportionment",
+    "decision_id": "e82498bbeaf1bb69914ef113a7f7a24d13c01957f65c105b4cc0990845ec9269",
+    "input_hash": "f0cbd80df361f91183bce7a3ef76d3c640060e6db6de3cdb29b4e5d75bef6849",
+    "output_hash": "a9651e3e5c5e8c5180ebd2e1a0cbf298dc7fb23f79cea4ea2a25e01ab3dedac6",
+    "primary_source_url": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M536/K690/536690391.PDF"
+  },
+  {
+    "case_id": "L4-001",
+    "title": "Williams v. City of Detroit",
+    "domain": "criminal_justice",
+    "failure_category": "perception_sensor_failure",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C3b: Perception defect is in the model; deployer contributes via integration",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 45,
+      "deployer": 24,
+      "data_provider": 12,
+      "human_operator": 19
+    },
+    "causal_ground_truth": {
+      "ai_provider": 70,
+      "deployer": 30,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 62,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Negligent Deployment / Constructive Knowledge",
+    "decision_id": "14447af5232b20ce0da9c5168bede07501ca5e100dbb6a354d76ba4f52d5f9db",
+    "input_hash": "36baaa59ea0935196ffb0d70f4aa5f85d77cbd0c43dd13705e17a5029d91b0f6",
+    "output_hash": "0b7f49ba9ada0a5fc004791b47507d38baf03ad33b489a823b295098d9282d30",
+    "primary_source_url": "https://assets.aclu.org/live/uploads/2024/06/Final-Order-of-Dismissal-and-Settlement-Agreement.pdf"
+  },
+  {
+    "case_id": "L4-008",
+    "title": "Woodruff v. Oliver",
+    "domain": "criminal_justice",
+    "failure_category": "pipeline_data_quality",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C9: Upstream data-quality breakdown drives the downstream failure",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "data_provider",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 20,
+      "deployer": 75,
+      "data_provider": 5,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 20,
+      "data_provider": 60,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 110,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Negligent Deployment / Constructive Knowledge",
+    "decision_id": "bb4a4864259b6230639a0797c70e23cb837973897ad248ecbf1634d5fa58b3e1",
+    "input_hash": "8effaf1f4695fc7fbef568a0d94f174173d0f79ccb77018ac1af51c36ecf9e08",
+    "output_hash": "520c20eada246605b0adcb88ccaf929624fd2bcffc2cba0175d8ee0293c4ffba",
+    "primary_source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-mied-5_23-cv-11886/pdf/USCOURTS-mied-5_23-cv-11886-1.pdf"
+  },
+  {
+    "case_id": "L5-001",
+    "title": "FTC v. Rite Aid Corp.",
+    "domain": "consumer_retail",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C2a: Deployer trained or configured the discriminatory system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "27176d5ac6180c66d400289b5654e7e48c8c1c365c2bc2c2a8d6449faa167b0a",
+    "input_hash": "39cf7d97830ff2bc0836c043b37d5574e748d3cc81e6f90dcd9b642b0a5c5ba9",
+    "output_hash": "f9e3b8742e3d0d36c0c0b8cfcd71e25f83216ce14db7566670409472582bfc1d",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023190_riteaid_complaint_filed.pdf"
+  },
+  {
+    "case_id": "L5-002",
+    "title": "FTC v. DoNotPay, Inc.",
+    "domain": "legal_services",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C7: Deceptive marketing is a deployer-side communication failure",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "582d06ef128b62925795371261a087ebde0d1be6b7860018c179fa46059fb8cf",
+    "input_hash": "19df72433967d59908125dd4187135497e3761a11164cbda1bc37bf3f64be531",
+    "output_hash": "683ecc087b4fcafbffda6149f9d6deed0dcf083a2bab182a0c1828a9c9cb9365",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323042_donotpay_complaint.pdf"
+  },
+  {
+    "case_id": "L5-004",
+    "title": "FTC v. Cleo AI",
+    "domain": "financial_services",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C7: Deceptive marketing is a deployer-side communication failure",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "7261d0cc31552887d4c325143efcbb92d0f70b8658589db7f90c89e118a2e51a",
+    "input_hash": "17a5e67eefcd5d01bb5457d3c89c98d174c4dc8ac776e3ad865aa61dd3a11252",
+    "output_hash": "2b21a525c126cee077ec2d1cdfaba18cbbcb1abf21117563c2885a0414b9c5af",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Cleo-COMPLAINT.pdf"
+  },
+  {
+    "case_id": "L5-005",
+    "title": "FTC v. Evolv Technologies",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C7: Deceptive marketing is a deployer-side communication failure",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 58,
+      "deployer": 34,
+      "data_provider": 6,
+      "human_operator": 2
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 132,
+    "predicted_primary_legal": "ai_provider",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 50,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 100,
+    "applied_doctrine": "Comparative Negligence / Shared Fault",
+    "decision_id": "37395db36e9b2d119b548c484347cdc5acfdd110601918dae5ba0fd2b55a66f0",
+    "input_hash": "3fb9369036a838e55d2550ff8b2497eec0821335db0f0b7c5449f019873f83ed",
+    "output_hash": "4f3c25b588785501fc5b64033e9f04d41270f7cc26521dc45e02e6c1042839d2",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/EVOLVCOMPLAINTFILED.pdf"
+  },
+  {
+    "case_id": "L5-006",
+    "title": "FTC v. IntelliVision Technologies",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C7: Deceptive marketing is a deployer-side communication failure",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Negligent Deployment / Constructive Knowledge",
+    "decision_id": "4d83a6054722d3d95eb8940f46748f49e84431d5ce649cfd271c03920d4fbff8",
+    "input_hash": "fd8927c46297c732ff5a78d9742b1f3a3f8f44685008f6438d67afd3d13848a0",
+    "output_hash": "e9082e2e1c801a1cd2d80a0de92a7fca608c42d2ea2a47af45ab6132888a09bd",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Complaint-IntellivisionTechCorp.pdf"
+  },
+  {
+    "case_id": "L5-007",
+    "title": "FTC v. accessiBe",
+    "domain": "consumer_retail",
+    "failure_category": "deceptive_marketing",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C7: Deceptive marketing is a deployer-side communication failure",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "b19c4de30a71a60f55b3e980020bb70f110a03c859d9ec7bcbd8075535d2fdd9",
+    "input_hash": "48d94d2f609bd6731cbf2a60fd32a072ef967ee20b6c325b1235da9594286f93",
+    "output_hash": "2b21a525c126cee077ec2d1cdfaba18cbbcb1abf21117563c2885a0414b9c5af",
+    "primary_source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/d-o.222_3156_-_accessibe_final_consent_package_without_signatures-2.pdf"
+  },
+  {
+    "case_id": "L7-001",
+    "title": "Walters v. OpenAI, L.L.C.",
+    "domain": "media",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "human_operator",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "Negligent Deployment / Constructive Knowledge",
+    "decision_id": "bbb27de2f0ad2997c6703af222a6d24c0c7dd865b646d8c38501a731801ef0db",
+    "input_hash": "c38d5f2fd7e59a7c2352e4d723b25e187c331c6d3f47b22cc74c496a85f23791",
+    "output_hash": "39fdf1d1c932c9c1ebf88566bd3e8541da3f8ef5353b2c9f570fb253df8d330f",
+    "primary_source_url": "https://reason.com/wp-content/uploads/2025/05/WaltersvOpenAISJOrder.pdf"
+  },
+  {
+    "case_id": "L7-003",
+    "title": "Moffatt v. Air Canada",
+    "domain": "consumer_retail",
+    "failure_category": "hallucination_fabrication",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C1b: Vertically integrated deployer = causal producer of hallucinating system",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 120,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Strict Product Liability / Vertically-Integrated Producer",
+    "decision_id": "2bc994973380a3f4c5f7cec9bae33a9261a4dcc370896b0bbaa19d93cbf5e6a2",
+    "input_hash": "76cfabceaa77a2ee60755ec504c9c7b8c3ea65b711fd4509c79d3d3fa91ddec6",
+    "output_hash": "a5c7181015c280cb8dc52a1e85c1a5920ed2014c8dc63ea83af6960c388438a2",
+    "primary_source_url": "https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+  },
+  {
+    "case_id": "L7-008",
+    "title": "Thomson Reuters Enterprise Centre GmbH v. ROSS Intelligence Inc.",
+    "domain": "legal_services",
+    "failure_category": "intellectual_property",
+    "ground_truth_confidence": "medium",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C6: IP infringement originates in model training data and outputs",
+    "predicted_primary_causal": "data_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": false,
+    "predicted_causal_attribution": {
+      "ai_provider": 10,
+      "deployer": 20,
+      "data_provider": 70,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 80,
+      "deployer": 0,
+      "data_provider": 20,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 140,
+    "predicted_primary_legal": "human_operator",
+    "ground_truth_primary_legal": "ai_provider",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 100
+    },
+    "legal_ground_truth": {
+      "ai_provider": 100,
+      "deployer": 0,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 200,
+    "applied_doctrine": "FRCP Rule 11 / Professional Non-Delegable Duty",
+    "decision_id": "1bd6b5baad9ed4049b1533f636d45dd9564f7f150b8f6654b88c9424bf24547a",
+    "input_hash": "636353f755f85ab3829b8dd08bd15b2c300a254604241de8ad50f442f39748db",
+    "output_hash": "8d3ed061b640b4272ef2140c997e4f684e0c472ef31830a27c3c8d1a2950421c",
+    "primary_source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-ded-1_20-cv-00613/pdf/USCOURTS-ded-1_20-cv-00613-5.pdf"
+  },
+  {
+    "case_id": "L8-001",
+    "title": "R (Bridges) v. Chief Constable of South Wales Police",
+    "domain": "criminal_justice",
+    "failure_category": "bias_discrimination",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C2b: Bias originates in training; deployer shares causal role for failing to validate fairness",
+    "predicted_primary_causal": "ai_provider",
+    "ground_truth_primary_causal": "ai_provider",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 60,
+      "deployer": 40,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 70,
+      "deployer": 30,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 20,
+    "predicted_primary_legal": "ai_provider",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": false,
+    "predicted_legal_attribution": {
+      "ai_provider": 50,
+      "deployer": 50,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 100,
+    "applied_doctrine": "Comparative Negligence / Shared Fault",
+    "decision_id": "b76852d51c093f30c1b7c0fbc55904ca58e7aad9674e18eb04e5a6659c8697a4",
+    "input_hash": "25eba9c1d296b786c6b079e0d8274425472b172bd89663c8a21151cc25feda08",
+    "output_hash": "860836d114211a49f3c15bb1122e1e5c03750415023b2b3a7400bb591bd3fc35",
+    "primary_source_url": "https://www.judiciary.uk/wp-content/uploads/2020/08/R-Bridges-v-CC-South-Wales-ors-Judgment.pdf"
+  },
+  {
+    "case_id": "L8-002",
+    "title": "NJCM v. State of the Netherlands (SyRI judgment)",
+    "domain": "government",
+    "failure_category": "privacy_consent",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "high",
+    "causal_rule_applied": "C5: Privacy violations originate in deployer's data-handling policy",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 20,
+      "deployer": 80,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "490ad6fe2da0009e070c730d094667a49157ec572288504ea4de9ecbd8229878",
+    "input_hash": "291cd24ec9befaf0843c5ed64fe385f432ce5831efb01e4ef382d5e1031ea20a",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878"
+  },
+  {
+    "case_id": "L8-004",
+    "title": "Robodebt — Federal Court class-action",
+    "domain": "government",
+    "failure_category": "algorithmic_government_action",
+    "ground_truth_confidence": "high",
+    "causal_confidence": "medium",
+    "causal_rule_applied": "C8: Government agency as deployer is the proximate causal actor; vendor model contributes",
+    "predicted_primary_causal": "deployer",
+    "ground_truth_primary_causal": "deployer",
+    "causal_primary_match": true,
+    "predicted_causal_attribution": {
+      "ai_provider": 25,
+      "deployer": 75,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_ground_truth": {
+      "ai_provider": 30,
+      "deployer": 70,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "causal_l1_distance": 10,
+    "predicted_primary_legal": "deployer",
+    "ground_truth_primary_legal": "deployer",
+    "legal_primary_match": true,
+    "predicted_legal_attribution": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_ground_truth": {
+      "ai_provider": 0,
+      "deployer": 100,
+      "data_provider": 0,
+      "human_operator": 0
+    },
+    "legal_l1_distance": 0,
+    "applied_doctrine": "Assumption of Risk / Contributory Negligence",
+    "decision_id": "1e8d1f69f0a6e0e91582645cdaa385c49fad296d3b8e4557c8aa8849bd1b1032",
+    "input_hash": "06c184a63335e819012224fcae5dd70d3d3d2518bdd48522c7c72e93237e77fa",
+    "output_hash": "e7223e5c096bfe98a3c36f3862b37985ab1f0fa247eae4575bbacf4e545a69ad",
+    "primary_source_url": "https://gordonlegal.com.au/app/uploads/2023/08/prygodicz-v-commonwealth-of-australia-no-2-2021-fca-634-summary.pdf"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "version": "v0.7 / CALB-2 v0.3",
+  "anchor_merkle_root": "e3105d7ad051f445274a476be7f27bad2e1c9ab56178edacc87d9c577b7eca4a",
+  "anchor_date": "2026-05-15",
+  "anchor_status": "pre-genesis-test",
+  "ots_calendars": [
+    "a.pool.opentimestamps.org",
+    "b.pool.opentimestamps.org",
+    "a.pool.eternitywall.com",
+    "ots.btc.catallaxy.com"
+  ],
+  "v07_causal_top1": 66.01941747572816,
+  "v07_causal_l1": 87.53398058252426,
+  "v07_legal_top1": 80.58252427184466,
+  "v07_legal_l1": 39.80582524271845,
+  "v06_causal_top1": 10.679611650485437,
+  "v06_causal_l1": 169.32038834951456,
+  "v06_legal_top1": 82.52427184466019,
+  "v06_legal_l1": 45.63106796116505,
+  "by_doctrine": {
+    "FRCP Rule 11 / Professional Non-Delegable Duty": {
+      "correct": 67,
+      "total": 78,
+      "pct": 85.8974358974359
+    },
+    "Strict Product Liability / Vertically-Integrated Producer": {
+      "correct": 6,
+      "total": 7,
+      "pct": 85.71428571428571
+    },
+    "Strict Product Liability / Design Defect": {
+      "correct": 1,
+      "total": 1,
+      "pct": 100.0
+    },
+    "Assumption of Risk / Contributory Negligence": {
+      "correct": 5,
+      "total": 8,
+      "pct": 62.5
+    },
+    "Negligent Deployment / Constructive Knowledge": {
+      "correct": 2,
+      "total": 5,
+      "pct": 40.0
+    },
+    "Equitable Apportionment": {
+      "correct": 1,
+      "total": 2,
+      "pct": 50.0
+    },
+    "Comparative Negligence / Shared Fault": {
+      "correct": 1,
+      "total": 2,
+      "pct": 50.0
+    }
+  },
+  "by_failure_category_legal": {
+    "hallucination_fabrication": {
+      "correct": 68,
+      "total": 78,
+      "pct": 87.17948717948718
+    },
+    "bias_discrimination": {
+      "correct": 3,
+      "total": 4,
+      "pct": 75.0
+    },
+    "algorithmic_government_action": {
+      "correct": 2,
+      "total": 2,
+      "pct": 100.0
+    },
+    "privacy_consent": {
+      "correct": 3,
+      "total": 6,
+      "pct": 50.0
+    },
+    "autonomy_handover": {
+      "correct": 0,
+      "total": 2,
+      "pct": 0.0
+    },
+    "perception_sensor_failure": {
+      "correct": 3,
+      "total": 3,
+      "pct": 100.0
+    },
+    "specification_oversight": {
+      "correct": 1,
+      "total": 1,
+      "pct": 100.0
+    },
+    "pipeline_data_quality": {
+      "correct": 1,
+      "total": 1,
+      "pct": 100.0
+    },
+    "deceptive_marketing": {
+      "correct": 2,
+      "total": 5,
+      "pct": 40.0
+    },
+    "intellectual_property": {
+      "correct": 0,
+      "total": 1,
+      "pct": 0.0
+    }
+  },
+  "by_failure_category_causal": {
+    "hallucination_fabrication": {
+      "correct": 57,
+      "total": 78,
+      "pct": 73.07692307692308
+    },
+    "bias_discrimination": {
+      "correct": 2,
+      "total": 4,
+      "pct": 50.0
+    },
+    "algorithmic_government_action": {
+      "correct": 2,
+      "total": 2,
+      "pct": 100.0
+    },
+    "privacy_consent": {
+      "correct": 6,
+      "total": 6,
+      "pct": 100.0
+    },
+    "autonomy_handover": {
+      "correct": 0,
+      "total": 2,
+      "pct": 0.0
+    },
+    "perception_sensor_failure": {
+      "correct": 1,
+      "total": 3,
+      "pct": 33.333333333333336
+    },
+    "specification_oversight": {
+      "correct": 0,
+      "total": 1,
+      "pct": 0.0
+    },
+    "pipeline_data_quality": {
+      "correct": 0,
+      "total": 1,
+      "pct": 0.0
+    },
+    "deceptive_marketing": {
+      "correct": 0,
+      "total": 5,
+      "pct": 0.0
+    },
+    "intellectual_property": {
+      "correct": 0,
+      "total": 1,
+      "pct": 0.0
+    }
+  },
+  "honest_caveats": [
+    "Causal axis lift (10.7% \u2192 66.0%) is largely because v0.7 grades the causal axis against the new causal_allocation column rather than the legal-responsibility column.",
+    "Legal axis dropped 1.9 pp (82.5% \u2192 80.6%) due to v0.7 doctrine refinements being more conservative; L1 distance improved.",
+    "Heavy weight on FRCP Rule 11 cases (75) means non-Rule-11 performance is not heavily reflected in headline.",
+    "Sample sizes for some doctrines remain small (Equitable Apportionment n=4, Strict Product Liability n=7)."
+  ]
+}
