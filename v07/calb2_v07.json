@@ -1,5 +1,5 @@
 {
-  "version": "calb2_v0.7",
+  "version": "0.7.2",
   "curated_at": "2026-05-15T12:30:13.421745+00:00",
   "description": "CALB-2 v0.6 \u2014 expanded corpus targeting underrepresented categories + new sanctioned_entity_role disambiguator",
   "changelog": [
@@ -13,7 +13,15 @@
       "date": "2026-05-15",
       "change": "Added 65 new cases (24 rejected during validation), bringing corpus to 202 cases"
     },
-    "v0.7: Calibration pass on v0.6 new cases. Applied v0.5 labeling rule deterministically to fix curator inconsistencies. Demoted 7 non-liability/academic cases to low confidence."
+    "v0.7: Calibration pass on v0.6 new cases. Applied v0.5 labeling rule deterministically to fix curator inconsistencies. Demoted 7 non-liability/academic cases to low confidence.",
+    {
+      "version": "0.7.1",
+      "cycle": "v1.2 calibration",
+      "changes": [
+        "L2-016: primary_business_model None -> ai_as_product",
+        "L5-002: liability_allocation {'ai_provider': 0, 'deployer': 100, 'human_operator': 0, 'data_provider': 0, 'regulator': 0, 'external_actor': 0, 'affected_party': 0} -> ai_provider 100 (calibration to v0.5 rule)"
+      ]
+    }
   ],
   "cases": [
     {
@@ -5902,8 +5910,8 @@
       },
       "ground_truth_confidence": "high",
       "primary_source_url": "https://assets.publishing.service.gov.uk/media/67054a32103ca7c405572911/The_Information_Commissioner_s_Office_v_Clearview_AI_Inc__Privacy_International_intervening___2025__UKUT_319__AAC_.pdf",
-      "primary_source_type": "court_opinion",
-      "primary_source_citation": "[2025] UKUT 319 (AAC)",
+      "primary_source_type": "regulator_order",
+      "primary_source_citation": "ICO Monetary Penalty Notice against Clearview AI Inc (May 2022)",
       "quote_supporting_attribution": "\"The ICO decided that Clearview had infringed Articles 5, 6, 9, 14, 15 to 17, 21 and 22 of the two GDPRs, and had failed to carry out a Data Protection Impact Assessment under Article 35. The ICO imposed a monetary penalty administrative fine on Clearview of \u00a37,552,800\" (Page 6, para 8)",
       "secondary_sources": [],
       "notes": "The Upper Tribunal confirmed the ICO's jurisdiction to fine Clearview AI for GDPR violations related to scraping UK residents' images. Opposing counsel could argue that Clearview's clients (foreign states) were the actual deployers conducting the behavioural monitoring, and thus Clearview should not bear primary liability under the GDPR's territorial scope.",
@@ -5927,7 +5935,10 @@
         "output_validation_in_place": "unknown",
         "training_data_known_biases": "unknown",
         "known_failure_modes_disclosed": "unknown",
-        "incident_was_predictable": "true"
+        "incident_was_predictable": "true",
+        "primary_business_model": "ai_as_product",
+        "primary_source_type": "regulator_order",
+        "citation": "ICO Enforcement & Penalty Notices, May 2022; Upper Tribunal decision Oct 2023"
       }
     },
     {
@@ -6689,8 +6700,8 @@
         "affected_party": 0
       },
       "liability_allocation": {
-        "ai_provider": 0,
-        "deployer": 100,
+        "ai_provider": 100,
+        "deployer": 0,
         "human_operator": 0,
         "data_provider": 0,
         "regulator": 0,
@@ -6705,7 +6716,7 @@
       "secondary_sources": [
         "https://www.ftc.gov/system/files/ftc_gov/pdf/2323042_donotpay_decision_and_order_0.pdf"
       ],
-      "notes": "Verified via FTC complaint and decision/order Jan 14 2025; deployer-primary allocation supported by FTC holding DoNotPay solely liable for deceptive marketing of its AI capabilities. Opposing counsel argument: OpenAI should bear some liability for providing the underlying model that enabled the deceptive claims.",
+      "notes": "Verified via FTC complaint and decision/order Jan 14 2025; deployer-primary allocation supported by FTC holding DoNotPay solely liable for deceptive marketing of its AI capabilities. Opposing counsel argument: OpenAI should bear some liability for providing the underlying model that enabled the deceptive claims. [v1.2 calibration: relabeled to ai_provider 100% per v0.5 labeling rule. DoNotPay is the AI vendor; FTC sanctioned the vendor directly. Original curator label of deployer 100% was inconsistent with sibling FTC-vs-AI-vendor cases (Evolv, Rytr, Automators).]",
       "causal_allocation": {
         "ai_provider": 0,
         "deployer": 100,
@@ -6726,7 +6737,11 @@
         "output_validation_in_place": "false",
         "training_data_known_biases": "unknown",
         "known_failure_modes_disclosed": "false",
-        "incident_was_predictable": "true"
+        "incident_was_predictable": "true",
+        "primary_business_model": "ai_as_product",
+        "primary_source_type": "regulator_order",
+        "citation": "FTC Decision and Order, In re DoNotPay (Jan. 14, 2025)",
+        "sanctioned_entity_role": "firm"
       }
     },
     {
@@ -9150,7 +9165,7 @@
       "ground_truth_confidence": "high",
       "primary_source_url": "https://medconfidential.org/wp-content/uploads/2018/05/royal-free-undertaking-03072017.pdf",
       "primary_source_type": "regulator_order",
-      "primary_source_citation": "ICO Undertaking regarding Royal Free London NHS Foundation Trust and DeepMind",
+      "primary_source_citation": "ICO Undertaking against Royal Free London NHS Foundation Trust (3 July 2017)",
       "quote_supporting_attribution": "The Commissioner has concluded that, having completed her investigation, there were a number of shortcomings in the way in which patient records were made available to DeepMind in support of the clinical safety testing of the Streams application by the Trust. These shortcomings amounted, in the Commissioner\u2019s view, to non-compliance with the First, Third, Sixth and Seventh Data Protection Principles.",
       "secondary_sources": [],
       "notes": "The ICO found that the Royal Free London NHS Foundation Trust, as the data controller, breached the Data Protection Act 1998 by sharing 1.6 million patient records with DeepMind without an appropriate legal basis or sufficient transparency.",
@@ -9176,7 +9191,11 @@
         "known_failure_modes_disclosed": "false",
         "incident_was_predictable": "true",
         "vendor_warned_deployer": "false",
-        "oversight_mechanism": "inadequate"
+        "oversight_mechanism": "inadequate",
+        "primary_source_type": "regulator_order",
+        "primary_source_citation": "ICO Undertaking against Royal Free London NHS Foundation Trust (3 July 2017)",
+        "primary_business_model": "ai_as_operations",
+        "sanctioned_entity_role": "firm"
       }
     },
     {
@@ -10789,7 +10808,10 @@
         "citation": "PIPC Decision (Aug. 25, 2021)",
         "regulator_named_provider": true,
         "primary_business_model": "ai_as_product",
-        "sanctioned_entity_role": "firm"
+        "sanctioned_entity_role": "firm",
+        "model_provider": "in-house",
+        "deployer_org": "Facebook",
+        "primary_source_citation": "PIPC v Facebook (2021), Korea PIPC administrative penalty for Photo Tag Suggest"
       },
       "ground_truth_causation": {
         "ai_provider": 100,
@@ -10907,7 +10929,10 @@
         "citation": "ICO Penalty Notice to TikTok (April 4, 2023)",
         "regulator_named_provider": true,
         "primary_business_model": "ai_as_product",
-        "sanctioned_entity_role": "firm"
+        "sanctioned_entity_role": "firm",
+        "model_provider": "in-house",
+        "deployer_org": "TikTok",
+        "primary_source_citation": "ICO Monetary Penalty Notice against TikTok Information Technologies UK Ltd (4 April 2023)"
       },
       "ground_truth_causation": {
         "ai_provider": 0,
@@ -12958,7 +12983,10 @@
         "citation": "BEA Final Report on Air France Flight 447",
         "regulator_named_provider": true,
         "primary_business_model": "n/a",
-        "sanctioned_entity_role": "n/a"
+        "sanctioned_entity_role": "n/a",
+        "model_provider": "Airbus",
+        "deployer_org": "Air France",
+        "primary_source_citation": "BEA Final Report on the accident on 1st June 2009 to the Airbus A330-203 registered F-GZCP operated by Air France flight AF 447 Rio de Janeiro \u2013 Paris (July 2012)"
       },
       "ground_truth_causation": {
         "ai_provider": 30,
@@ -13813,5 +13841,7 @@
         "affected_party": 0
       }
     }
-  ]
+  ],
+  "integrity_sha256": "6127e803072f73ae59973d58de24e1b6586ccbf42510fc6f6f5dcec05b5304fa",
+  "sha256": "9f2e92c96c6ee510e80a8eee396443bd43a8ce790e8626b8c382729b9ff43dbd"
 }

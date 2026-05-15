@@ -1,0 +1,18 @@
+case_id,confidence,title,domain,doctrine,predicted,gt,L1
+L11-901,low,Wong et al. Validation of Epic Sepsis Model,healthcare,Strict Product Liability / Design Defect,ai_provider,deployer,200
+L11-903,low,Roberts et al. on Spurious Correlations in COVID-19 Chest X-ray Models,healthcare,Strict Product Liability / Vertically-Integrated Producer,deployer,data_provider,200
+L2-005,medium,State v. Loomis,criminal_justice,Judicial Discretion / Decision-Maker Non-Delegability,human_operator,deployer,200
+L2-116,high,State v. Loomis,criminal_justice,Government Administrative Liability / Non-Delegable Duty,deployer,human_operator,200
+L2-901,low,NY DFS Investigation on Apple Card and Goldman Sachs,financial_services,Negligent Operations / In-House Algorithmic Failure,deployer,ai_provider,200
+L2-903,medium,New York State Department of Financial Services Action on UnitedHealth Group,healthcare,Regulatory Action / Statutory Liability (Deployer),deployer,ai_provider,200
+L2-909,low,Crawford and Paglen v. ImageNet,other,Strict Product Liability / Vertically-Integrated Producer,deployer,data_provider,200
+L2-912,low,State v. Pickett COMPAS challenge,criminal_justice,Judicial Discretion / Decision-Maker Non-Delegability,human_operator,deployer,200
+L3-901,low,Kevin Liu v. Microsoft Corporation,other,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L3-903,low,Samsung bans ChatGPT after internal data leak,other,Strict Product Liability / Design Defect,ai_provider,human_operator,200
+L4-901,high,AWS S3 us-east-1 Outage Cascading Failures,other,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L5-903,high,FTC Action on Ascend Ecom,consumer_retail,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-901,high,Hamburg DPA v. H&M Hennes & Mauritz Online Shop A.B. & Co KG,hr_employment,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L6-906,high,CNIL v. Doctissimo,media,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L7-001,high,"Walters v. OpenAI, L.L.C.",media,Negligent Deployment / Constructive Knowledge,deployer,human_operator,200
+L8-903,high,Dutch Data Protection Authority v. Tax and Customs Administration,government,Regulatory Action / Statutory Liability (Provider),ai_provider,deployer,200
+L9-901,low,NTSB Investigation on Tesla Autopilot Joshua Brown Fatal Crash,automotive,Regulatory Action / Statutory Liability (Provider),ai_provider,human_operator,101
