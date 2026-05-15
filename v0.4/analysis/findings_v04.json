@@ -1,0 +1,223 @@
+{
+  "benchmark": "CALB-2",
+  "version": "0.4",
+  "engine_version": "0.7.0",
+  "total_cases": 137,
+  "anchored_on_bitcoin": true,
+  "merkle_root": "733a76d2c8bbc10ebfbc0f576a4c95d897866fab758498872eb9ce86bdd1fc5c",
+  "aggregate": {
+    "causal_top1_pct": 66.42,
+    "legal_top1_pct": 75.91,
+    "mean_causal_l1": 76.15,
+    "mean_legal_l1": 48.18
+  },
+  "vs_v03": {
+    "legal_axis_delta_pp": -4.69,
+    "causal_axis_delta_pp": 0.42,
+    "interpretation": "v0.3's 80.6% legal axis was inflated by 78% lawyer-hallucination dominance where FRCP Rule 11 fires near-perfectly. v0.4's broader corpus (57.7% hallucination, 42.3% other) shows the engine's actual operating accuracy on a more representative case mix."
+  },
+  "per_category": [
+    {
+      "category": "hallucination_fabrication",
+      "n": 79,
+      "legal_acc_pct": 87.34177215189874,
+      "causal_acc_pct": 73.41772151898734,
+      "legal_l1": 24.481012658227847,
+      "causal_l1": 90.53164556962025
+    },
+    {
+      "category": "bias_discrimination",
+      "n": 12,
+      "legal_acc_pct": 66.66666666666667,
+      "causal_acc_pct": 83.33333333333333,
+      "legal_l1": 50.0,
+      "causal_l1": 40.0
+    },
+    {
+      "category": "perception_failure",
+      "n": 7,
+      "legal_acc_pct": 85.71428571428571,
+      "causal_acc_pct": 100.0,
+      "legal_l1": 28.571428571428573,
+      "causal_l1": 36.57142857142857
+    },
+    {
+      "category": "privacy_consent",
+      "n": 6,
+      "legal_acc_pct": 50.0,
+      "causal_acc_pct": 100.0,
+      "legal_l1": 100.0,
+      "causal_l1": 10.0
+    },
+    {
+      "category": "deceptive_marketing",
+      "n": 5,
+      "legal_acc_pct": 40.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 140.0,
+      "causal_l1": 122.4
+    },
+    {
+      "category": "specification_failure",
+      "n": 5,
+      "legal_acc_pct": 20.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 160.0,
+      "causal_l1": 60.0
+    },
+    {
+      "category": "pipeline_integration",
+      "n": 5,
+      "legal_acc_pct": 80.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 40.0,
+      "causal_l1": 60.0
+    },
+    {
+      "category": "adversarial_exploit",
+      "n": 4,
+      "legal_acc_pct": 25.0,
+      "causal_acc_pct": 100.0,
+      "legal_l1": 150.0,
+      "causal_l1": 40.0
+    },
+    {
+      "category": "perception_sensor_failure",
+      "n": 3,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 33.333333333333336,
+      "legal_l1": 33.333333333333336,
+      "causal_l1": 120.66666666666667
+    },
+    {
+      "category": "sensor_distribution_drift",
+      "n": 3,
+      "legal_acc_pct": 66.66666666666667,
+      "causal_acc_pct": 100.0,
+      "legal_l1": 66.66666666666667,
+      "causal_l1": 20.0
+    },
+    {
+      "category": "algorithmic_government_action",
+      "n": 2,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 100.0,
+      "legal_l1": 0.0,
+      "causal_l1": 30.0
+    },
+    {
+      "category": "autonomy_handover",
+      "n": 2,
+      "legal_acc_pct": 0.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 167.0,
+      "causal_l1": 80.0
+    },
+    {
+      "category": "specification_oversight",
+      "n": 1,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 132.0,
+      "causal_l1": 160.0
+    },
+    {
+      "category": "pipeline_data_quality",
+      "n": 1,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 0.0,
+      "causal_l1": 110.0
+    },
+    {
+      "category": "intellectual_property",
+      "n": 1,
+      "legal_acc_pct": 0.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 200.0,
+      "causal_l1": 140.0
+    },
+    {
+      "category": "oversight_failure",
+      "n": 1,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 0.0,
+      "legal_l1": 0.0,
+      "causal_l1": 60.0
+    }
+  ],
+  "per_domain": [
+    {
+      "domain": "legal_services",
+      "n": 79,
+      "legal_acc_pct": 86.07594936708861,
+      "causal_acc_pct": 73.41772151898734
+    },
+    {
+      "domain": "consumer_retail",
+      "n": 14,
+      "legal_acc_pct": 71.42857142857143,
+      "causal_acc_pct": 57.142857142857146
+    },
+    {
+      "domain": "criminal_justice",
+      "n": 9,
+      "legal_acc_pct": 77.77777777777777,
+      "causal_acc_pct": 88.88888888888889
+    },
+    {
+      "domain": "government",
+      "n": 7,
+      "legal_acc_pct": 57.142857142857146,
+      "causal_acc_pct": 100.0
+    },
+    {
+      "domain": "automotive",
+      "n": 6,
+      "legal_acc_pct": 66.66666666666667,
+      "causal_acc_pct": 16.666666666666668
+    },
+    {
+      "domain": "hr_employment",
+      "n": 5,
+      "legal_acc_pct": 80.0,
+      "causal_acc_pct": 60.0
+    },
+    {
+      "domain": "financial_services",
+      "n": 5,
+      "legal_acc_pct": 100.0,
+      "causal_acc_pct": 0.0
+    },
+    {
+      "domain": "other",
+      "n": 5,
+      "legal_acc_pct": 0.0,
+      "causal_acc_pct": 40.0
+    },
+    {
+      "domain": "media",
+      "n": 3,
+      "legal_acc_pct": 0.0,
+      "causal_acc_pct": 33.333333333333336
+    },
+    {
+      "domain": "healthcare",
+      "n": 3,
+      "legal_acc_pct": 66.66666666666667,
+      "causal_acc_pct": 66.66666666666667
+    },
+    {
+      "domain": "aviation",
+      "n": 1,
+      "legal_acc_pct": 0.0,
+      "causal_acc_pct": 100.0
+    }
+  ],
+  "honest_v0_8_priorities": [
+    "Strengthen bias_discrimination doctrine selection (n=12 cases now available)",
+    "Strengthen perception/CV doctrine selection (n=10 across perception_failure + perception_sensor_failure)",
+    "Add adversarial_exploit-specific causal heuristics",
+    "Expand corpus to 200+ cases targeting under-represented sensor_drift, autonomy_handover, ip_infringement"
+  ]
+}
