@@ -165,7 +165,7 @@ def check_case(c: dict) -> list[dict]:
             )
 
     # R5 — IP / privacy cases must surface ai_provider OR affected_party
-    if failure in ("intellectual_property", "privacy_violation"):
+    if failure in ("intellectual_property", "privacy_consent"):
         if alloc_int(la, "ai_provider") == 0 and alloc_int(la, "affected_party") == 0:
             flag(
                 "R5_ip_or_privacy_must_surface_ai_provider_or_affected_party",

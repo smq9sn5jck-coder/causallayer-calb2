@@ -181,11 +181,16 @@ def main():
         raw["metadata"]["last_updated"] = raw["generated_at"]
         raw["metadata"]["expansion_notes"] = raw["notes"]
 
-    # Recompute file sha
+    # Recompute file sha as a SELF-EXCLUDING digest: hash the body with the
+    # sha256 field present but blanked, then substitute the real digest in place.
+    # This way a verifier can reproduce it by zeroing sha256 before re-hashing,
+    # whereas the previous code hashed the body WITHOUT the key and then wrote a
+    # body WITH it — making the stored digest impossible to reproduce.
+    raw["sha256"] = ""
     body = json.dumps(raw, indent=2, sort_keys=False, ensure_ascii=False)
     digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
+    body = body.replace('"sha256": ""', f'"sha256": "{digest}"', 1)
     raw["sha256"] = digest
-    body = json.dumps(raw, indent=2, sort_keys=False, ensure_ascii=False)
 
     DST.write_text(body, encoding="utf-8")
     print(f"wrote {DST} ({len(body):,} bytes, sha256 {digest[:16]}…)")
