@@ -72,13 +72,6 @@ ALLOC_SLOTS = (
 
 NULLISH = {"", "none", "null", "n/a", "na"}
 
-CIVIL_TORT_CATEGORIES = {
-    "private_dispute",
-    "tort_claim",
-    "personal_injury",
-    "negligence",
-}
-
 
 def is_null(v: Any) -> bool:
     if v is None:
@@ -153,10 +146,12 @@ def check_case(c: dict) -> list[dict]:
         )
 
     # R4 — n/a sanction WITH evidence (populated source type) must surface
-    # regulator or affected_party slot. Excused for civil-tort categories.
+    # regulator or affected_party slot.
+    # (A "civil-tort excusal" clause was removed: it keyed on category names that
+    # do not exist in the taxonomy, so it never excused anything — dead code.)
     src_type = c.get("primary_source_type")
     src_type_populated = not is_null(src_type)
-    if role in ("n/a", "na") and src_type_populated and failure not in CIVIL_TORT_CATEGORIES:
+    if role in ("n/a", "na") and src_type_populated:
         if alloc_int(la, "regulator") == 0 and alloc_int(la, "affected_party") == 0:
             flag(
                 "R4_no_sanction_must_surface_regulator_or_affected_party",
