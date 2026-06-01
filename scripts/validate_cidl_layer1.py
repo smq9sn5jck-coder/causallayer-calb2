@@ -90,7 +90,12 @@ def main() -> int:
             continue
         total = 0
         for slot in slots:
-            v = la.get(slot, 0)
+            # Schema marks all allocation slots as required + additionalProperties:false,
+            # so a missing slot is an error — do not silently substitute 0.
+            if slot not in la:
+                add(cid, f"liability_allocation.{slot}", "error", "required slot missing")
+                continue
+            v = la[slot]
             if not isinstance(v, int) or v < 0 or v > 100:
                 add(cid, f"liability_allocation.{slot}", "error", f"expected int 0-100, got {v!r}")
             else:

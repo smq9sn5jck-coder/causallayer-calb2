@@ -78,7 +78,7 @@
         },
         "output_validation_in_place": {
           "type": ["string", "null"],
-          "enum": [null, "false", "partial", "unknown"]
+          "enum": [null, "true", "false", "partial", "unknown"]
         },
         "sanctioned_entity_role": {
           "type": ["string", "null"],
